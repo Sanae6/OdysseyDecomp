@@ -69,6 +69,8 @@ void initJointGlobalQuatController(const al::LiveActor*, const sead::Quatf*, con
 
 bool isEffectEmitting(const IUseEffectKeeper*, const char*);
 
+void createAndSetColliderSpecialPurpose(const al::LiveActor*, const char*);
+
 }  // namespace al
 
 namespace rs {

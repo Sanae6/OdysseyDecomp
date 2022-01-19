@@ -18,7 +18,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(odyssey)
+add_executable(odyssey lib/rs/Event.h)
 target_include_directories(odyssey PRIVATE src)
 target_compile_definitions(odyssey PRIVATE NON_MATCHING)
 target_compile_options(odyssey PRIVATE -fno-rtti -fno-exceptions)

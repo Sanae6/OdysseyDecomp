@@ -23,6 +23,7 @@ public:
     void makeActorAliveAll();
     void makeActorDeadAll();
 
+private:
     const char* mGroupName;   // _8
     int mMaxActorCount;       // _10
     int mActorCount;          // _14

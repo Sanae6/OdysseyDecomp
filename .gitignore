@@ -44,6 +44,5 @@ perf.data.old
 # Tooling
 /toolchain/clang-*
 tools/check
-tools/listsym
-tools/decompme
 /cmake-build-debug
+cmake-build*/
