@@ -1,6 +1,6 @@
 /**
  * @file IUseLayout.h
- * @brief Interface for classes that are layouts.
+ * @brief Interface for classes that are Layouts.
  */
 
 #pragma once
