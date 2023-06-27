@@ -40,4 +40,45 @@ public:
     void tryCreateResGraphicsFile(const sead::SafeString& name, nn::g3d::ResFile* resFile);
     void cleanupResGraphicsFile();
 };
+
+class AnimInfoTable { char size[0x18]; };
+class ActionAnimCtrlInfo { char size[0x60]; };
+
+struct InitResourceDataAnim {
+    al::AnimInfoTable *mInfoTable; // 0x0
+    al::AnimInfoTable *mFclAnim; // 0x8
+    al::AnimInfoTable *mFtsAnim; // 0x10
+    al::AnimInfoTable *mFtpAnim; // 0x18
+    al::AnimInfoTable *mInfoTable2; // 0x18
+};
+
+class InitResourceDataActionAnim {
+private:
+    int mLength = 0;
+    ActionAnimCtrlInfo **mInfos; // ActionAnimCtrlInfo*[mLength];
+public:
+    InitResourceDataActionAnim(al::Resource *,al::InitResourceDataAnim const*,char const* resourceYml);
+    void sortCtrlInfo(void);
+
+    static InitResourceDataActionAnim* tryCreate(al::Resource *,al::InitResourceDataAnim const*,char const*);
+};
+
+struct InitResourceDataAction {
+    al::InitResourceDataActionAnim *dataActionAnim;
+};
+
+class ActorResource {
+private:
+    sead::FixedSafeString<0x80> unkStr;  // 0x8
+    al::Resource *mResourceModel; // 0xA0
+    al::Resource *mResourceAnim;  // 0xA8
+    bool mHasAnimData;        // 0xB0
+    al::InitResourceDataAnim *mAnimResData; // 0xB8
+    al::InitResourceDataAction *mActionResData; // 0xC0
+public:
+    ActorResource(sead::SafeString const&, al::Resource*, al::Resource*);
+    virtual ~ActorResource();
+
+    void initResourceData(char const*, bool);
+};
 }  // namespace al

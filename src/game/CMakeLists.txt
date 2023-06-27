@@ -1,3 +1,6 @@
 add_subdirectory(Boss)
+add_subdirectory(MapObj)
 add_subdirectory(Player)
+add_subdirectory(Sequence)
+add_subdirectory(Scene)
 add_subdirectory(System)

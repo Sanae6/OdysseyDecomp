@@ -8,4 +8,5 @@ target_sources(odyssey PRIVATE
     ActorPoseKeeper.cpp
     LiveActor.cpp
     LiveActorGroup.cpp
+    SubActorKeeper.cpp
 )

@@ -4,6 +4,7 @@
 #include <al/Library/Audio/IUseAudioKeeper.h>
 #include <al/Library/Camera/IUseCamera.h>
 #include <al/Library/Effect/IUseEffectKeeper.h>
+#include <al/Library/Execute/LayoutExecuteInfo.h>
 #include <al/Library/HostIO/IUseHioNode.h>
 #include <al/Library/Layout/IUseLayout.h>
 #include <al/Library/Layout/IUseLayoutAction.h>
@@ -18,7 +19,6 @@ class LayoutActionKeeper;
 class LayoutTextPaneAnimator;
 class EffectKeeper;
 class AudioKeeper;
-class LayoutExecuteInfo;
 class HitReactionKeeper;
 class LayoutSceneInfo;
 class LayoutPartsActorKeeper;
@@ -81,6 +81,8 @@ public:
     void initNerve(const al::Nerve*, s32);
     void setMainGroupName(const char*);
     void syncAction();
+
+    al::LayoutExecuteInfo *getExecuteInfo() { return mExecuteInfo; }
 };
 }  // namespace al
 class CameraDirector;

@@ -28,4 +28,12 @@ public:
     ActorStateBase(const char* stateName, al::LiveActor* actor);
 };
 
+template <class T>
+class HostStateBase : public NerveStateBase {
+private:
+    T *mHost;
+public:
+    HostStateBase(const char* name, T *host);
+};
+
 }  // namespace al

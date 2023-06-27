@@ -14,6 +14,7 @@ private:
 public:
     ViewIdHolder();
     void init(const al::PlacementInfo& placementInfo);
+    al::PlacementId &getViewId(int idx) const;
 
     static ViewIdHolder* tryCreate(const al::PlacementInfo& placementInfo);
 };

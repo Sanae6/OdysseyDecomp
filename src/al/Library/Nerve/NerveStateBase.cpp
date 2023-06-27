@@ -30,4 +30,11 @@ void NerveStateBase::control() {}
 
 ActorStateBase::ActorStateBase(const char* name, al::LiveActor* actor)
     : al::NerveStateBase(name), mActor(actor) {}
+
+template <class T>
+HostStateBase<T>::HostStateBase(const char* name, T *host)
+    : NerveStateBase(name), mHost(host) {};
+
 }
+
+

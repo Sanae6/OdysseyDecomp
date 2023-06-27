@@ -12,10 +12,10 @@
 #include <al/Library/Rail/IUseRail.h>
 #include <al/Library/Scene/IUseSceneObjHolder.h>
 #include <al/Library/Stage/IUseStageSwitch.h>
+#include <al/Library/Execute/ActorExecuteInfo.h>
 
 namespace al {
 class ActorPoseKeeperBase;
-class ActorExecuteInfo;
 class ActorActionKeeper;
 class ActorItemKeeper;
 class ActorScoreKeeper;
@@ -58,7 +58,7 @@ class LiveActor : public al::IUseNerve,
 private:
     const char* mActorName;
     al::ActorPoseKeeperBase* mPoseKeeper;
-    al::ActorExecuteInfo* mLayoutExecuteInfo;
+    al::ActorExecuteInfo* mExecuteInfo;
     al::ActorActionKeeper* mActorActionKeeper;
     al::ActorItemKeeper* mActorItemKeeper;
     al::ActorScoreKeeper* mActorScoreKeeper;
@@ -100,7 +100,7 @@ public:
     virtual bool receiveMsg(const al::SensorMsg* message, al::HitSensor* source, al::HitSensor* target);
     virtual bool receiveMsgScreenPoint(const al::SensorMsg*, al::ScreenPointer*, al::ScreenPointTarget*);
     virtual const char* getName() const override;
-    virtual sead::Matrix44f* getBaseMtx() const;
+    virtual sead::Matrix34f* getBaseMtx() const;
     virtual al::EffectKeeper* getEffectKeeper() const override;
     virtual al::AudioKeeper* getAudioKeeper() const override;
     virtual al::StageSwitchKeeper* getStageSwitchKeeper() const override;
@@ -134,6 +134,10 @@ public:
 
     al::LiveActorFlag* getFlags() const { return mFlags; }
     al::ModelKeeper* getModelKeeper() const { return mModelKeeper; }
+    al::ActorPoseKeeperBase* getPoseKeeper() const { return mPoseKeeper; }
+    al::ActorExecuteInfo* getExecuteInfo() const { return mExecuteInfo; }
+
+    void setName(const char* newName) { mActorName = newName; }
 };
 
 struct LiveActorFlag {

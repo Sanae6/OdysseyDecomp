@@ -13,11 +13,11 @@ public:
 template <class T, class F>
 class FunctorV0M : public FunctorBase {
 private:
-    T mObjPointer;
-    F mFunctor;
+    T mObjPointer = nullptr;
+    F mFunctor = nullptr;
 
 public:
-    inline FunctorV0M() {}
+    inline FunctorV0M() = default;
     inline FunctorV0M(T objPointer, F functPointer)
         : mObjPointer(objPointer), mFunctor(functPointer){};
     inline FunctorV0M(const FunctorV0M<T, F>& copy) = default;

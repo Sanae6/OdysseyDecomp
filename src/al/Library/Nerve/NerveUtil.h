@@ -11,6 +11,8 @@ void setNerve(al::IUseNerve* user, const al::Nerve* nerve);
 void setNerveAtStep(al::IUseNerve* user, const al::Nerve* nerve, s32 step);
 void setNerveAtGreaterEqualStep(al::IUseNerve* user, const al::Nerve* nerve, s32 step);
 
+s32 getNerveStep(const al::IUseNerve* user);
+
 bool isStep(const al::IUseNerve* user, s32 step);
 bool isFirstStep(const al::IUseNerve* user);
 bool isGreaterStep(const al::IUseNerve* user, s32 step);

@@ -14,6 +14,8 @@ bool normalize(sead::Vector2f* value);
 bool normalize(sead::Vector3f* value);
 bool normalize(sead::Matrix33f* value);
 bool normalize(sead::Matrix34f* value);
+f32 normalize(f32,f32,f32);
+s32 normalize(s32,s32,s32);
 
 bool isNear(f32 value, f32 target, f32 tolerance);
 bool isNear(const sead::Vector2f& value, const sead::Vector2f& target, f32 tolerance);

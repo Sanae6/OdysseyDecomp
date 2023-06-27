@@ -4,11 +4,7 @@
 #include <mc/seadCoreInfo.h>
 #include <prim/seadSafeString.h>
 #include <al/Library/Thread/FunctorV0M.h>
-
-namespace sead {
-class DelegateThread;
-class Thread;
-}  // namespace sead
+#include <thread/seadDelegateThread.h>
 
 namespace al {
 class AsyncFunctorThread {

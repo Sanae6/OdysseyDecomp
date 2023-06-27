@@ -2,9 +2,12 @@
 
 #include <al/Library/LiveActor/ActorSceneInfo.h>
 #include <al/Library/Nerve/NerveUtil.h>
+#include <al/Library/Resource/Resource.h>
+#include <al/Library/Yaml/ByamlIter.h>
 #include <basis/seadTypes.h>
 #include <gfx/seadDrawContext.h>
 #include <math/seadBoundBox.h>
+#include <math/seadMatrix.h>
 #include <math/seadVector.h>
 #include <prim/seadSafeString.h>
 
@@ -35,6 +38,7 @@ class GraphicsSystemInfo;
 class ModelDrawBufferCounter;
 class ActorFactory;
 class ActorResourceHolder;
+class ActorResource;
 class AudioDirector;
 class EffectSystemInfo;
 class ExecuteDirector;
@@ -93,10 +97,71 @@ void initChildActorWithArchiveNameNoPlacementInfo(al::LiveActor* actor, const al
 void initMapPartsActor(al::LiveActor* actor, const al::ActorInitInfo& initInfo, const char* suffix);
 void initLinksActor(al::LiveActor* actor, const al::ActorInitInfo& initInfo, const char* suffix, s32 linkIndex);
 
+// TODO: move these
+void initActorSceneInfo(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorUpdate(al::LiveActor *,al::ActorInitInfo const&,const char *);
+void initExecutorDraw(al::LiveActor *,al::ActorInitInfo const&,const char *);
+void initExecutorPlayer(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorPlayerPreMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorPlayerMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorPlayerModel(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorPlayerDecoration(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorEnemy(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorEnemyMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorEnemyDecoration(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorEnemyDecorationMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorMapObj(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorMapObjMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorMapObjDecoration(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorNpcDecoration(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorShadowVolume(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorShadowVolumeFillStencil(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorCollisionMapObjDecorationMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorWatchObj(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorDebugMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorModelUpdate(al::LiveActor *,const al::ActorInitInfo&);
+void initExecutorDrcAssistMovement(al::LiveActor *,const al::ActorInitInfo&);
+void initActorModelKeeper(al::LiveActor *,al::ActorInitInfo const&,al::ActorResource const*,int);
+void initActorModelKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*,int,char const*);
+void initActorModelKeeperByHost(al::LiveActor *,al::LiveActor const*);
+void initActorModelForceCubeMap(al::LiveActor *,al::ActorInitInfo const&);
+void initActorActionKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*,char const*);
+void initActorActionKeeper(al::LiveActor *,al::ActorResource const*,char const*,char const*);
+void initActorEffectKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*);
+void initActorSeKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*,sead::Vector3<float> const*,sead::Matrix34f const*);
+void initActorSeKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*);
+void initActorSeKeeperWithout3D(al::LiveActor *,al::ActorInitInfo const&,char const*);
+void initActorBgmKeeper(al::LiveActor *,al::ActorInitInfo const&,char const*);
+void isInitializedBgmKeeper(al::LiveActor *);
+void initHitReactionKeeper(al::LiveActor *,char const*);
+void initHitReactionKeeper(al::LiveActor *,al::Resource const*,char const*);
+void initActorParamHolder(al::LiveActor *,char const*);
+void initActorParamHolder(al::LiveActor *,al::Resource const*,char const*);
+void initDepthShadowMapCtrl(al::LiveActor *,al::Resource const*,al::ActorInitInfo const&,char const*);
+void initDepthShadowMapCtrlWithoutIter(al::LiveActor *,int,bool);
+void addDepthShadowMapInfo(al::LiveActor const*,char const*,int,int,int,float,bool,sead::Vector3<float> const&,bool,sead::Vector3<float> const&,sead::Vector3<float> const&,bool,char const*,int,bool,float,float,float,bool,bool,float,int,bool);
+void declareUseDepthShadowMap(al::LiveActor const*,int);
+void createDepthShadowMap(al::LiveActor const*,char const*,int,int,int);
+void initShadowMaskCtrl(al::LiveActor *,al::ActorInitInfo const&,al::ByamlIter const&,char const*);
+void initShadowMaskCtrlWithoutInitFile(al::LiveActor *,al::ActorInitInfo const&,int);
+
 void createChildLinkSimpleActor(const char* actorName, const char* archiveName, const al::ActorInitInfo& initInfo, bool alive);
 void createChildLinkMapPartsActor(const char* actorName, const char* archiveName, const al::ActorInitInfo& initInfo, s32 linkIndex, bool alive);
 
 al::ActorInitInfo* createLinksPlayerActorInfo(al::LiveActor* actor, const al::ActorInitInfo& initInfo);
+
+void initCreateActorWithPlacementInfo(al::LiveActor *,al::ActorInitInfo const&);
+void initCreateActorWithPlacementInfo(al::LiveActor *,al::ActorInitInfo const&,al::PlacementInfo const&);
+void initCreateActorNoPlacementInfo(al::LiveActor *,al::ActorInitInfo const&);
+void initCreateActorNoPlacementInfoNoViewId(al::LiveActor *, const al::ActorInitInfo&);
+void createPlacementActorFromFactory(const al::ActorInitInfo&, const al::PlacementInfo*);
+void createLinksActorFromFactory(const al::ActorInitInfo&,char const*,int);
+void createLinksActorGroupFromFactory(const al::ActorInitInfo&,char const*,char const*);
+void tryCreateLinksActorGroupFromFactory(const al::ActorInitInfo&,char const*,char const*);
+void tryCreateLinksActorFromFactorySingle(const al::ActorInitInfo&,char const*);
+void createAndRegisterLinksActorFromFactory(al::LiveActorGroup *,al::ActorInitInfo const&,char const*);
+void makeMapPartsModelName(sead::BufferedSafeString *,sead::BufferedSafeString *,const al::PlacementInfo&);
+void makeMapPartsModelName(sead::BufferedSafeString *,sead::BufferedSafeString *,const al::ActorInitInfo&);
 
 void initNerve(al::LiveActor* actor, const al::Nerve* nerve, s32 maxStates);
 void initNerveAction(al::LiveActor* actor, const char* actionName, alNerveFunction::NerveActionCollector* collector, s32 maxStates);

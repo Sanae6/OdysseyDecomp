@@ -65,7 +65,7 @@ void setMaterialProgrammable(al::LiveActor* actor);
 bool isIncludePrepassCullingShape(al::LiveActor* actor);
 void isExistJoint(const al::LiveActor* actor, const char*);
 void getJointIndex(const al::LiveActor* actor, const char*);
-void getJointMtxPtr(const al::LiveActor* actor, const char*);
+sead::Matrix34f *getJointMtxPtr(const al::LiveActor* actor, const char*);
 void getJointMtxPtrByIndex(const al::LiveActor* actor, int);
 void getJointLocalTrans(sead::Vector3f*, const al::LiveActor* actor, const char*);
 void calcJointPos(sead::Vector3f*, const al::LiveActor* actor, const char*);
