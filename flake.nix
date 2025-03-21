@@ -33,15 +33,17 @@
         localPackages = tools.packages;
         shellInputs = rec {
           packages = with pkgs;
-            (builtins.attrValues localPackages)
-            ++ [
+            [
+              hactool
+              localPackages.nx2elf
+
               cmake
               ninja
               llvmPackages_18.clang
+              llvmPackages_18.libllvm
               ccache
               pkg-config
 
-              hactool
               rustToolchain
               (python3.withPackages (python-pkgs: [
                 python-pkgs.capstone

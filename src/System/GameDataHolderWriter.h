@@ -7,4 +7,5 @@ public:
     GameDataHolderWriter(const al::IUseSceneObjHolder* holder) : GameDataHolderAccessor(holder) {}
 
     GameDataHolderWriter(const al::SceneObjHolder* holder) : GameDataHolderAccessor(holder) {}
+    GameDataHolderWriter(GameDataHolder* data) : GameDataHolderAccessor(data) {}
 };

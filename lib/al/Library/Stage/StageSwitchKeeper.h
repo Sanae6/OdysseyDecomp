@@ -14,6 +14,7 @@ class StageSwitchListener;
 class PlacementInfo;
 class IUseStageSwitch;
 class FunctorBase;
+class IUseName;
 
 class StageSwitchKeeper {
 public:
@@ -21,49 +22,14 @@ public:
     void init(StageSwitchDirector*, const PlacementInfo&);
     StageSwitchAccesser* tryGetStageSwitchAccesser(const char* name);
 
+    void setUseName(IUseName* useName) {
+        mUseName = useName;
+    }
+
 private:
     StageSwitchAccesser* mStageSwitchAccessers;
     s32 mAccesserNum;
-    void* field_10;
+    IUseName* mUseName;
 };
 
-class StageSwitchDirector : public HioNode, public IUseExecutor {
-public:
-    StageSwitchDirector(ExecuteDirector*);
-
-    void execute() override;
-
-    void useSwitch(const StageSwitchAccesser*);
-    void* findSwitchNoFromObjId(const PlacementId*);  // unknown return type
-    void onSwitch(const StageSwitchAccesser*);
-    void offSwitch(const StageSwitchAccesser*);
-    bool isOnSwitch(const StageSwitchAccesser*);
-    void addListener(StageSwitchListener*, StageSwitchAccesser*);
-
-private:
-    void* filler[3];
-};
-
-static_assert(sizeof(StageSwitchDirector) == 0x20);
-
-bool tryOnStageSwitch(IUseStageSwitch*, const char*);
-bool tryOffStageSwitch(IUseStageSwitch*, const char*);
-bool tryOnSwitchDeadOn(IUseStageSwitch* stageSwitch);
-bool listenStageSwitchOff(IUseStageSwitch* stageSwitchHolder, const char* eventName,
-                          const FunctorBase& actionOnOff);
-bool listenStageSwitchOn(IUseStageSwitch* stageSwitchHolder, const char* eventName,
-                         const FunctorBase& actionOnOn);
-bool listenStageSwitchOnAppear(IUseStageSwitch* stageSwitchHolder,
-                               const FunctorBase& actionOnAppear);
-bool listenStageSwitchOnOff(IUseStageSwitch* stageSwitchHolder, const char* eventName,
-                            const FunctorBase& actionOnOn, const FunctorBase& actionOnOff);
-bool listenStageSwitchOnOffStart(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn,
-                                 const FunctorBase& actionOnOff);
-bool listenStageSwitchOnOffAppear(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn,
-                                  const FunctorBase& actionOnOff);
-bool listenStageSwitchOnKill(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn);
-bool listenStageSwitchOnOffKill(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn,
-                                const FunctorBase& actionOnOff);
-bool listenStageSwitchOnStart(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn);
-bool listenStageSwitchOnStop(IUseStageSwitch* stageSwitchHolder, const FunctorBase& actionOnOn);
 }  // namespace al
