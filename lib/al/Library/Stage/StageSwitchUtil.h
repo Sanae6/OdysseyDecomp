@@ -16,9 +16,8 @@ bool tryOnStageSwitch(IUseStageSwitch* user, const char* linkName);
 bool tryOffStageSwitch(IUseStageSwitch* user, const char* linkName);
 bool isSameStageSwitch(const IUseStageSwitch* user, const IUseStageSwitch* otherUser,
                        const char* linkName);
-bool isOnStageSwitch(IUseStageSwitch* user, const char* linkName);
-bool isOffStageSwitch(IUseStageSwitch* user, const char* linkName);
 bool isValidSwitchAppear(const IUseStageSwitch* user);
+bool isOffStageSwitch(IUseStageSwitch* user, const char* linkName);
 bool isOnSwitchAppear(const IUseStageSwitch* user);
 bool isValidSwitchKill(const IUseStageSwitch* user);
 bool isValidSwitchDeadOn(const IUseStageSwitch* user);

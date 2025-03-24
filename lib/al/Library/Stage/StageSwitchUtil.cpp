@@ -32,23 +32,23 @@ bool isValidStageSwitch(const IUseStageSwitch* user, const char* linkName) {
     return accesser->isValid();
 }
 
-// bool isOnStageSwitch(const IUseStageSwitch* user, const char* linkName) {
-//     auto keeper = user->getStageSwitchKeeper();
-//     if (keeper == nullptr)
-//         return false;
-//     auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
-//     if (accesser == nullptr)
-//         return false;
-//
-//     accesser->isEnableRead();
-//     return accesser->isOnSwitch();
-// }
+bool isOnStageSwitch(const IUseStageSwitch* user, const char* linkName) {
+    auto keeper = user->getStageSwitchKeeper();
+    if (keeper == nullptr)
+        return false;
+    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    if (accesser == nullptr)
+        return false;
+
+    accesser->isEnableRead();
+    return accesser->isOnSwitch();
+}
 
 void onStageSwitch(IUseStageSwitch* user, const char* linkName) {
     auto keeper = user->getStageSwitchKeeper();
     if (keeper == nullptr)
         return;
-    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    auto accesser = const_cast<StageSwitchAccesser*>(keeper->tryGetStageSwitchAccesser(linkName));
     if (accesser == nullptr)
         return;
 
@@ -57,10 +57,10 @@ void onStageSwitch(IUseStageSwitch* user, const char* linkName) {
 }
 
 void offStageSwitch(IUseStageSwitch* user, const char* linkName) {
-    auto keeper = user->getStageSwitchKeeper();
+    StageSwitchKeeper* keeper = user->getStageSwitchKeeper();
     if (keeper == nullptr)
         return;
-    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    StageSwitchAccesser* accesser = const_cast<StageSwitchAccesser*>(keeper->tryGetStageSwitchAccesser(linkName));
     if (accesser == nullptr)
         return;
 
@@ -72,12 +72,13 @@ bool tryOnStageSwitch(IUseStageSwitch* user, const char* linkName) {
     auto keeper = user->getStageSwitchKeeper();
     if (keeper == nullptr)
         return false;
-    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    auto accesser = const_cast<StageSwitchAccesser*>(keeper->tryGetStageSwitchAccesser(linkName));
     if (accesser == nullptr)
         return false;
 
     accesser->isEnableRead();
-    if (!accesser->isValid() || accesser->isOnSwitch()) return false;
+    if (!accesser->isValid() || accesser->isOnSwitch())
+        return false;
     accesser->onSwitch();
     return true;
 }
@@ -86,23 +87,63 @@ bool tryOffStageSwitch(IUseStageSwitch* user, const char* linkName) {
     auto keeper = user->getStageSwitchKeeper();
     if (keeper == nullptr)
         return false;
-    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    auto accesser = const_cast<StageSwitchAccesser*>(keeper->tryGetStageSwitchAccesser(linkName));
     if (accesser == nullptr)
         return false;
 
     accesser->isEnableRead();
-    if (!accesser->isValid() || !accesser->isOnSwitch()) return false;
+    if (!accesser->isValid() || !accesser->isOnSwitch())
+        return false;
     accesser->offSwitch();
     return true;
 }
 
 bool isSameStageSwitch(const IUseStageSwitch* user, const IUseStageSwitch* otherUser,
-                       const char* linkName);
-bool isOnStageSwitch(IUseStageSwitch* user, const char* linkName) {
+                       const char* linkName) {
 
+    auto keeper = user->getStageSwitchKeeper();
+    if (keeper == nullptr)
+        return false;
+    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    if (accesser == nullptr)
+        return false;
+    accesser->isEnableRead();
+
+    auto otherKeeper = user->getStageSwitchKeeper();
+    if (otherKeeper == nullptr)
+        return false;
+    auto otherAccesser = keeper->tryGetStageSwitchAccesser(linkName);
+    if (otherAccesser == nullptr)
+        return false;
+    otherAccesser->isEnableRead();
+    return accesser->isEqualSwitch(otherAccesser);
 }
-bool isOffStageSwitch(IUseStageSwitch* user, const char* linkName);
-bool isValidSwitchAppear(const IUseStageSwitch* user);
+
+bool isValidSwitchAppear(const IUseStageSwitch* user) {
+
+    auto keeper = user->getStageSwitchKeeper();
+    if (keeper == nullptr)
+        return false;
+    auto accesser = keeper->tryGetStageSwitchAccesser("SwitchAppear");
+    if (accesser == nullptr)
+        return false;
+
+    accesser->isEnableRead();
+    return accesser->isValid();
+}
+
+bool isOnStageSwitch(IUseStageSwitch* user, const char* linkName) {
+    auto keeper = user->getStageSwitchKeeper();
+    if (keeper == nullptr)
+        return false;
+    auto accesser = keeper->tryGetStageSwitchAccesser(linkName);
+    if (accesser == nullptr)
+        return false;
+
+    accesser->isEnableRead();
+    return accesser->isOnSwitch();
+}
+
 bool isOnSwitchAppear(const IUseStageSwitch* user);
 bool isValidSwitchKill(const IUseStageSwitch* user);
 bool isValidSwitchDeadOn(const IUseStageSwitch* user);

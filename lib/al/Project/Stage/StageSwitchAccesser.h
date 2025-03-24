@@ -25,6 +25,8 @@ public:
     bool isEqualSwitch(const StageSwitchAccesser* other) const;
     void addListener(StageSwitchListener* listener);
 
+    const char* getLinkName() const { return mLinkName; }
+    void setUseName(IUseName* useName) { mName = useName; }
     PlacementId* getPlacementId() const { return mPlacementId; }
     s32 getInfoIndex() const { return mInfoIndex; }
 
@@ -36,7 +38,7 @@ private:
     };
 
     StageSwitchDirector* mStageSwitchDirector = nullptr;
-    IUseName* mUseName = nullptr;
+    IUseName* mName = nullptr;
     const char* mLinkName = "";
     PlacementId* mPlacementId = nullptr;
     s32 mInfoIndex = -1;
