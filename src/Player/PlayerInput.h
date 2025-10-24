@@ -91,6 +91,9 @@ public:
 
     bool isSpinClockwise() const;
 
+    bool isTriggerCameraReset() const;
+    bool isTriggerCameraSubjective() const;
+
 private:
     const al::LiveActor* mLiveActor;
     const IUsePlayerCollision* mPlayerCollision;

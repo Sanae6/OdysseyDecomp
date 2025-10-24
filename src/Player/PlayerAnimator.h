@@ -12,13 +12,17 @@ class PlayerModelHolder;
 class PlayerAnimator {
 public:
     void startAnim(const sead::SafeString& animName);
+    void startAnimCommon(const sead::SafeString& animName);
+    void startAnimSpinAttack(const sead::SafeString& animName);
     void startSubAnim(const sead::SafeString& animName);
     void startSubAnimOnlyAir(const sead::SafeString& animName);
     void startUpperBodyAnimAndHeadVisKeep(const sead::SafeString& animName);
     void startAnimDead();  // chooses one of the 5 death animations and starts that animation
     void endSubAnim();
+    void copyAnim();
 
     void updateAnimFrame();
+    void updateModel();
     void clearUpperBodyAnim();
 
     bool isAnim(const sead::SafeString& animName) const;
@@ -33,6 +37,7 @@ public:
     f32 getSubAnimFrame() const;
     f32 getSubAnimFrameMax() const;
     f32 getBlendWeight(s32 index);
+    f32 getModelAlpha() const;
 
     void setAnimRate(f32);
     void setAnimRateCommon(f32);
@@ -46,6 +51,9 @@ public:
     void setPartsAnimFrame(f32, const char*);
 
     bool isSubAnimPlaying() const { return mIsSubAnimPlaying; }
+
+    void updateModelAlpha();
+    void resetModelAlpha();
 
 private:
     PlayerModelHolder* mModelHolder;

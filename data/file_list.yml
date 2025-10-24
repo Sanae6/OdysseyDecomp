@@ -126019,62 +126019,62 @@ Player/PlayerStateCameraSubjective.o:
     label:
     - _ZN27PlayerStateCameraSubjectiveC1EPN2al9LiveActorEPNS0_12CameraTicketEP19IPlayerModelChangerP17PlayerCarryKeeperP14PlayerAnimatorPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInput
     - _ZN27PlayerStateCameraSubjectiveC2EPN2al9LiveActorEPNS0_12CameraTicketEP19IPlayerModelChangerP17PlayerCarryKeeperP14PlayerAnimatorPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInput
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4679a8
     size: 80
     label: _ZN27PlayerStateCameraSubjective6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4679f8
     size: 184
     label: _ZN27PlayerStateCameraSubjective4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467ab0
     size: 156
     label: _ZN27PlayerStateCameraSubjective7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467b4c
     size: 132
     label: _ZN27PlayerStateCameraSubjective15interruptByDemoEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467bd0
     size: 28
     label: _ZNK27PlayerStateCameraSubjective19isStateActiveCameraEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467bec
     size: 164
     label: _ZN27PlayerStateCameraSubjective8exeStartEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467c90
     size: 424
     label: _ZN27PlayerStateCameraSubjective15faceToCameraDirEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467e38
     size: 176
     label: _ZN27PlayerStateCameraSubjective7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467ee8
     size: 244
     label: _ZN27PlayerStateCameraSubjective6exeEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x467fdc
     size: 36
     label: _ZN27PlayerStateCameraSubjectiveD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x468000
     size: 8
     label: _ZNK12_GLOBAL__N_134PlayerStateCameraSubjectiveNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x468008
     size: 8
     label: _ZNK12_GLOBAL__N_135PlayerStateCameraSubjectiveNrvStart7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x468010
     size: 8
     label: _ZNK12_GLOBAL__N_133PlayerStateCameraSubjectiveNrvEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Player/PlayerStateCapCatchPop.o:
   '.text':
