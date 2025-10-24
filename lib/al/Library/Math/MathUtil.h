@@ -213,8 +213,8 @@ void limitVectorSeparateHV(sead::Vector3f*, const sead::Vector3f&, f32, f32);
 void parallelizeVec(sead::Vector3f*, const sead::Vector3f&, const sead::Vector3f&);
 void calcVectorSeparateHV(sead::Vector3f*, const sead::Vector3f&, const sead::Vector3f&, f32, f32);
 void limitVectorParallelVertical(sead::Vector3f*, const sead::Vector3f&, f32, f32);
-void separateVectorParallelVertical(sead::Vector3f*, sead::Vector3f*, const sead::Vector3f&,
-                                    const sead::Vector3f&);
+void separateVectorParallelVertical(sead::Vector3f* parallel, sead::Vector3f* perpendicular, const sead::Vector3f& parallelDir,
+                                    const sead::Vector3f& inVec);
 bool addVectorLimit(sead::Vector3f*, const sead::Vector3f&, f32);
 void alongVectorNormalH(sead::Vector3f*, const sead::Vector3f&, const sead::Vector3f&,
                         const sead::Vector3f&);

@@ -126407,32 +126407,32 @@ Player/PlayerStateFallHakoniwa.o:
     label:
     - _ZN23PlayerStateFallHakoniwaC1EPN2al9LiveActorEPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInputPK13PlayerTriggerPK17PlayerAreaCheckerPK13IUseDimensionP14PlayerAnimator
     - _ZN23PlayerStateFallHakoniwaC2EPN2al9LiveActorEPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInputPK13PlayerTriggerPK17PlayerAreaCheckerPK13IUseDimensionP14PlayerAnimator
-    status: NotDecompiled
+    status: Matching
   - offset: 0x46afb8
     size: 260
     label: _ZN23PlayerStateFallHakoniwa6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x46b0bc
     size: 580
     label: _ZN23PlayerStateFallHakoniwa20updateFallTargetAreaEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x46b300
     size: 148
     label: _ZNK23PlayerStateFallHakoniwa16isValidWallCatchEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x46b394
     size: 300
     label: _ZN23PlayerStateFallHakoniwa7exeFallEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x46b4c0
     size: 36
     label: _ZN23PlayerStateFallHakoniwaD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x46b4e4
     size: 8
     label: _ZNK12_GLOBAL__N_130PlayerStateFallHakoniwaNrvFall7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Player/PlayerStateFreeRun.o:
   '.text':
@@ -259920,7 +259920,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92426c
     size: 116
     label: _ZN2al30separateVectorParallelVerticalEPN4sead7Vector3IfEES3_RKS2_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9242e0
     size: 364
     label: _ZN2al14addVectorLimitEPN4sead7Vector3IfEERKS2_f
