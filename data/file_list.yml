@@ -115569,27 +115569,27 @@ Player/PlayerActionTurnControl.o:
     label:
     - _ZN23PlayerActionTurnControlC1EPN2al9LiveActorE
     - _ZN23PlayerActionTurnControlC2EPN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x419b8c
     size: 28
     label: _ZN23PlayerActionTurnControl5setupEffffiii
-    status: NotDecompiled
+    status: Matching
   - offset: 0x419ba8
     size: 24
     label: _ZN23PlayerActionTurnControl5resetEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x419bc0
     size: 2832
     label: _ZN23PlayerActionTurnControl6updateERKN4sead7Vector3IfEES4_
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x41a6d0
     size: 388
     label: _ZN23PlayerActionTurnControl8calcTiltEPN4sead7Vector3IfEERKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x41a854
     size: 100
     label: _ZNK23PlayerActionTurnControl17calcTurnPowerRateERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
 Player/PlayerActionVelocityControl.o:
   '.text':
   - offset: 0x41a8b8
