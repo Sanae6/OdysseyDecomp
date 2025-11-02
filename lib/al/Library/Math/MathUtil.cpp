@@ -1002,6 +1002,13 @@ f32 calcFriction(f32 accel, f32 speed) {
     return (accel + speed) / speed;
 }
 
+void separateVectorParallelVertical(sead::Vector3f* parallel, sead::Vector3f* perpendicular,
+                                    const sead::Vector3f& parallelDir,
+                                    const sead::Vector3f& inVec) {
+    parallel->setScale(parallelDir, parallelDir.dot(inVec));
+    perpendicular->setSub(inVec, *parallel);
+}
+
 inline f32 round(f32 v) {
     return (s32)(v + (v >= 0.0f ? 0.5f : -0.5f));
 }

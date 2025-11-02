@@ -10,6 +10,8 @@ public:
         ECollisionTrigger_val1 = 1,
         // used in PlayerStateDamageLife
         ECollisionTrigger_val6 = 6,
+        // used in PlayerStateFallHakoniwa
+        ECollisionTrigger_FallOnStart = 7,
         // used in PlayerJudgeWallHitDown
         ECollisionTrigger_val9 = 9,
     };
@@ -28,8 +30,12 @@ public:
         EActionTrigger_val11 = 11,
         // used in PlayerStateSquat
         EActionTrigger_val12 = 12,
+        // used in PlayerStateFallHakoniwa
+        EActionTrigger_FallAfterRun = 14,
         // used in PlayerJudgeWallCatch, PlayerJudgeWallKeep
         EActionTrigger_val30 = 30,
+        // used in PlayerStateFallHakoniwa
+        EActionTrigger_FallAfterWallCatch = 32,
         EActionTrigger_QuickTurn = 34,
     };
 
