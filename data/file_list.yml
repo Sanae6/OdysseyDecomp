@@ -127118,24 +127118,24 @@ Player/PlayerStateNormalFall.o:
     label:
     - _ZN21PlayerStateNormalFallC1EPN2al9LiveActorEPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInputP14PlayerAnimator
     - _ZN21PlayerStateNormalFallC2EPN2al9LiveActorEPK11PlayerConstPK19IUsePlayerCollisionPK11PlayerInputP14PlayerAnimator
-    status: NotDecompiled
+    status: Matching
   - offset: 0x474f1c
     size: 16
     label: _ZN21PlayerStateNormalFall6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x474f2c
     size: 360
     label: _ZN21PlayerStateNormalFall7exeFallEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x475094
     size: 36
     label: _ZN21PlayerStateNormalFallD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4750b8
     size: 8
     label: _ZNK12_GLOBAL__N_128PlayerStateNormalFallNrvFall7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Player/PlayerStateNormalJump.o:
   '.text':
