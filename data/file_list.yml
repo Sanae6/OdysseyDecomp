@@ -123413,20 +123413,20 @@ Player/PlayerJudgeDead.o:
     label:
     - _ZN15PlayerJudgeDeadC1EPKN2al9LiveActorE
     - _ZN15PlayerJudgeDeadC2EPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x458e14
     size: 84
     label: _ZNK15PlayerJudgeDead5judgeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x458e68
     size: 4
     label: _ZN15PlayerJudgeDead5resetEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x458e6c
     size: 4
     label: _ZN15PlayerJudgeDead6updateEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Player/PlayerJudgeDeadSceneEnd.o:
   '.text':
