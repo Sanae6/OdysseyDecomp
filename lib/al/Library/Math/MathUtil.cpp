@@ -1002,6 +1002,27 @@ f32 calcFriction(f32 accel, f32 speed) {
     return (accel + speed) / speed;
 }
 
+void alongVectorNormalH(sead::Vector3f* outVec, const sead::Vector3f& rInVec,
+                        const sead::Vector3f& rUp, const sead::Vector3f& rNormal) {
+    sead::Vector3f inVec = rInVec;
+    sead::Vector3f up = rUp;
+    sead::Vector3f normal = rNormal;
+
+    sead::Vector3f horizontalUnit = up.cross(normal);
+
+    if (al::tryNormalizeOrZero(&horizontalUnit)) {
+        f32 angle = sead::Mathf::atan2(rUp.cross(rNormal).length(), up.dot(normal));
+        inVec -= up * up.dot(inVec);
+
+        sead::Quatf awesome;
+        awesome.setAxisRadian(horizontalUnit, angle);
+
+        outVec->setRotated(awesome, inVec);
+    } else {
+        outVec->setSub(rInVec, rNormal * normal.dot(inVec));
+    }
+}
+
 inline f32 round(f32 v) {
     return (s32)(v + (v >= 0.0f ? 0.5f : -0.5f));
 }
