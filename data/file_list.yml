@@ -235180,27 +235180,27 @@ Library/Demo/DemoSyncedEventKeeper.o:
     label:
     - _ZN2al21DemoSyncedEventKeeperC1EPNS_13AudioDirectorE
     - _ZN2al21DemoSyncedEventKeeperC2EPNS_13AudioDirectorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8724b4
     size: 72
     label: _ZN2al21DemoSyncedEventKeeper21updateOnlyWhenDemoRunEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8724fc
     size: 56
     label: _ZN2al21DemoSyncedEventKeeper8finalizeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x872534
     size: 140
     label: _ZN2al21DemoSyncedEventKeeper9startDemoEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8725c0
     size: 104
     label: _ZN2al21DemoSyncedEventKeeper7endDemoEbb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x872628
     size: 84
     label: _ZN25alDemoSyncedEventFunction23tryCreateAndSetSeKeeperEPN2al21DemoSyncedEventKeeperEPNS0_13AudioDirectorEPKc
-    status: NotDecompiled
+    status: Matching
 Library/Demo/DemoSyncedBgmCtrl.o:
   '.text':
   - offset: 0x87267c
