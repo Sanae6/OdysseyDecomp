@@ -243404,29 +243404,29 @@ Library/Layout/LayoutTextureRenderer.o:
     label:
     - _ZN2al21LayoutTextureRendererC1Ev
     - _ZN2al21LayoutTextureRendererC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b72ac
     size: 116
     label:
     - _ZN2al21LayoutTextureRendererD1Ev
     - _ZN2al21LayoutTextureRendererD2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b7320
     size: 120
     label: _ZN2al21LayoutTextureRendererD0Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b7398
     size: 44
     label: _ZN2al21LayoutTextureRenderer12addRenderObjEPNS_22LayoutTextureRenderObjE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b73c4
     size: 104
     label: _ZNK2al21LayoutTextureRenderer13drawToTextureEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b742c
     size: 12
     label: _ZNK2al21LayoutTextureRenderer15getSceneObjNameEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Library/Layout/LayoutTextureRenderObj.o:
   '.text':
