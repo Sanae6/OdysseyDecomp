@@ -19,6 +19,8 @@ public:
     void write(al::ByamlWriter* writer) override;
     void read(const al::ByamlIter& save) override;
 
+    bool IsShowDemoWorldWarpHole() const { return mIsShowDemoWorldWarpHole; }
+
 private:
     struct WorldData {
         void init();

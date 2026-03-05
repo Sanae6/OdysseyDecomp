@@ -532,6 +532,8 @@ public:
 
     NetworkUploadFlag* getNetworkUploadFlag() const { return mNetworkUploadFlag; }
 
+    SequenceDemoSkipData* getSequenceDemoSkipData() const { return mSequenceDemoSkipData; }
+
     HintPhotoData* getHintPhotoData() const { return mHintPhotoData; }
 
     const char* getCurrentCostumeName() const { return mCurrentCostumeName.cstr(); }

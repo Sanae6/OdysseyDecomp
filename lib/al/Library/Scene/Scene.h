@@ -83,7 +83,7 @@ public:
 
     DrawSystemInfo* getDrawSystemInfo() const { return mDrawSystemInfo; }
 
-private:
+protected:
     bool mIsAlive = false;
     sead::FixedSafeString<0x40> mName;
     StageResourceKeeper* mStageResourceKeeper = nullptr;

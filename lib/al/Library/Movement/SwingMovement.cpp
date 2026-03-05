@@ -49,7 +49,7 @@ bool SwingMovement::updateRotate() {
         f32 rad = sead::Mathf::deg2rad(modf(degree + 90.0f + 180.0f, 180.0f) - 90.0f);
         mCurrentAngle = swingAngleSign * sead::Mathf::sin(rad) * 180.0f + mOffsetRotate;
     } else {
-        mCurrentAngle = swingAngleSign * (modf(degree * 2 + 360.0f, 360.0f) + 0.0f) + mOffsetRotate;
+        mCurrentAngle = swingAngleSign * wrapAngle(degree * 2) + mOffsetRotate;
     }
 
     return false;
@@ -59,7 +59,7 @@ void SwingMovement::exeMove() {
     if (updateRotate())
         setNerve(this, &Stop);
 
-    mFrameInCycle = modi((mFrameInCycle + 1) + mSwingCycle, mSwingCycle);
+    mFrameInCycle = wrapValue(mFrameInCycle + 1, mSwingCycle);
 }
 
 void SwingMovement::exeStop() {

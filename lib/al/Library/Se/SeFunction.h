@@ -10,6 +10,7 @@ class ISeModifier;
 class MeInfo;
 class SePlayParamList;
 class AudioDirector;
+class SeDirector;
 
 void startSe(const IUseAudioKeeper*, const sead::SafeString&);
 bool verifySeKeeperNull(const IUseAudioKeeper*, const sead::SafeString&);
@@ -63,6 +64,10 @@ void setSeOutputTvDrcRemoteAll(SePlayParamList*);
 
 namespace alSeFunction {
 void stopAllSe(const al::AudioDirector*, u32);
+void startListenerPoser(al::SeDirector*, const char*, s32);
+void endListenerPoser(al::SeDirector*, const char*, s32);
+void startListenerPoser(al::AudioDirector*, const char*, s32);
+void endListenerPoser(al::AudioDirector*, const char*, s32);
 void startListenerPoser(const al::IUseAudioKeeper*, const char*, s32);
 void endListenerPoser(const al::IUseAudioKeeper*, const char*, s32);
 }  // namespace alSeFunction

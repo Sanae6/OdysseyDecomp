@@ -27,7 +27,7 @@
 #include "Enemy/GamaneBullet.h"
 #include "Enemy/GamaneHackState.h"
 #include "Enemy/HackerDepthShadowMapCtrl.h"
-#include "Player/HackerJudge.h"
+#include "Player/HackerJudgeNormalFall.h"
 #include "Player/PlayerHackStartShaderCtrl.h"
 #include "Util/Hack.h"
 #include "Util/ItemUtil.h"
@@ -505,7 +505,8 @@ void Gamane::exeHack() {
         mCoinsLeft--;
     }
 
-    mHackCoinAppearCounter = al::modi((mHackCoinAppearCounter++ + 1) + 6, 6);
+    // NOTE: this is only one increment, as post-incrementing is used
+    mHackCoinAppearCounter = al::wrapValue(mHackCoinAppearCounter++ + 1, 6);
 }
 
 void Gamane::exeTrampled() {

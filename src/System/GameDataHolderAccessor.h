@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cstddef>
+
 namespace al {
 class IUseSceneObjHolder;
 class SceneObjHolder;
@@ -13,6 +15,7 @@ public:
     GameDataHolderAccessor(const al::SceneObjHolder* holder);
 
     GameDataHolderAccessor(GameDataHolder* holder) { mData = holder; }
+    GameDataHolderAccessor() { mData = nullptr; }
 
     operator GameDataHolder*() const { return mData; }
 

@@ -4,6 +4,12 @@
 
 namespace al {
 class GraphicsQualityInfo;
+class GraphicsSystemInfo;
+class SceneCameraInfo;
+class GpuPerfAreaController ;
+class GraphicsParamIo;
+class ParameterArray;
+class ParameterIo;
 
 class GraphicsQualityController : public NerveExecutor {
 public:
@@ -14,9 +20,19 @@ public:
     bool isChangedGraphicsQualityMode() const { return mIsChangedGraphicsQualityMode; }
 
 private:
-    void* _10[1];
+    bool mIsGpuStressAnalyzerValid;
     GraphicsQualityInfo* mGraphicsQualityInfo;
-    void* _20[17];
+    GraphicsSystemInfo* mGraphicsSystemInfo;
+    SceneCameraInfo* mSceneCameraInfo;
+    GpuPerfAreaController* mGpuPerfAreaController;
+    void* _20[9];
+    GraphicsParamIo* mGraphicsParamIo;
+    ParameterArray * _88;
+    ParameterIo* _90;
+    ParameterArray* _98;
+    s32 _a0;
+    s32 _a4;
+
     bool mIsChangedGraphicsQualityMode;
     void* _b0[11];
 };

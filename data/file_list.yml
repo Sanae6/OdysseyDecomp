@@ -1093,43 +1093,43 @@ Area/MoveArea2D.o:
   - offset: 0x005f48
     size: 84
     label: _ZN10MoveArea2DC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x005f9c
     size: 96
     label: _ZN10MoveArea2DC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x005ffc
     size: 244
     label: _ZN10MoveArea2D4initERKN2al12AreaInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0060f0
     size: 88
     label: _ZNK10MoveArea2D13calcSnapPowerEPN4sead7Vector3IfEEPfRKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x006148
     size: 296
     label: _ZNK10MoveArea2D17calcSnapPowerCubeEPN4sead7Vector3IfEEPfRKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x006270
     size: 276
     label: _ZNK10MoveArea2D21calcSnapPowerCylinderEPN4sead7Vector3IfEEPfRKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x006384
     size: 296
     label: _ZNK10MoveArea2D17calcSnapPowerDiskEPN4sead7Vector3IfEEPfRKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0064ac
     size: 500
     label: _ZNK10MoveArea2D14calcGravityDirEPN4sead7Vector3IfEEPfRKS2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0066a0
     size: 56
     label: _ZNK10MoveArea2D15calcGravityYDirEPN4sead7Vector3IfEEPf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0066d8
     size: 260
     label: _ZNK10MoveArea2D29calcGravityCylinderCenterAxisEPN4sead7Vector3IfEEPfRKS2_b
-    status: NotDecompiled
+    status: Matching
 Area/NpcForceMaterialCodeArea.o:
   '.text':
   - offset: 0x0067dc
@@ -1629,43 +1629,43 @@ Audio/DemoSoundSynchronizer.o:
     label:
     - _ZN21DemoSoundSynchronizerC1EPKN2al26ApplicationMessageReceiverEPNS0_13AudioDirectorE
     - _ZN21DemoSoundSynchronizerC2EPKN2al26ApplicationMessageReceiverEPNS0_13AudioDirectorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x00920c
     size: 32
     label: _ZN21DemoSoundSynchronizer9startSyncEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x00922c
     size: 116
     label: _ZN21DemoSoundSynchronizer7endSyncEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0092a0
     size: 100
     label: _ZN21DemoSoundSynchronizer6resumeEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x009304
     size: 108
     label: _ZN21DemoSoundSynchronizer6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x009370
     size: 96
     label: _ZN21DemoSoundSynchronizer9tryResumeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0093d0
     size: 300
     label: _ZN21DemoSoundSynchronizer7trySyncEiPN2al21DemoSyncedEventKeeperE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0094fc
     size: 224
     label: _ZN21DemoSoundSynchronizer13trySyncCommonEiil
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0095dc
     size: 232
     label: _ZN21DemoSoundSynchronizer7trySyncEiil
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0096c4
     size: 104
     label: _ZN21DemoSoundSynchronizer5pauseEv
-    status: NotDecompiled
+    status: Matching
 Audio/ProjectSeNamedList.o:
   '.text':
   - offset: 0x00972c
@@ -6081,40 +6081,40 @@ Boss/BossKnuckle/BossKnuckleHandPrint.o:
   - offset: 0x02d440
     size: 124
     label: _ZN20BossKnuckleHandPrintC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d4bc
     size: 136
     label: _ZN20BossKnuckleHandPrintC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d544
     size: 100
     label: _ZN20BossKnuckleHandPrint19initWithArchiveNameERKN2al13ActorInitInfoEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d5a8
     size: 52
     label: _ZN20BossKnuckleHandPrint6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d5dc
     size: 68
     label: _ZN20BossKnuckleHandPrint23startDisappearIfAppeardEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d620
     size: 112
     label: _ZN20BossKnuckleHandPrint9exeAppearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d690
     size: 96
     label: _ZN20BossKnuckleHandPrint12exeDisappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x02d6f0
     size: 116
     label: _ZNK12_GLOBAL__N_129BossKnuckleHandPrintNrvAppear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x02d764
     size: 100
     label: _ZNK12_GLOBAL__N_132BossKnuckleHandPrintNrvDisappear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/BossKnuckle/BossKnuckleMummyGenerator.o:
   '.text':
@@ -8678,48 +8678,48 @@ Boss/BossRaid/BossRaidWheel.o:
   - offset: 0x045e74
     size: 164
     label: _ZN13BossRaidWheelC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x045f18
     size: 176
     label: _ZN13BossRaidWheelC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x045fc8
     size: 220
     label: _ZN13BossRaidWheel4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0460a4
     size: 100
     label: _ZN13BossRaidWheel12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x046108
     size: 8
     label: _ZN13BossRaidWheel10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x046110
     size: 68
     label: _ZN13BossRaidWheel7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x046154
     size: 96
     label: _ZN13BossRaidWheel7exeLandEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0461b4
     size: 476
     label: _ZN13BossRaidWheel6exeRunEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x046390
     size: 164
     label: _ZN13BossRaidWheel10shotGroundERKN4sead7Vector3IfEES4_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x046434
     size: 100
     label: _ZNK12_GLOBAL__N_120BossRaidWheelNrvLand7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x046498
     size: 8
     label: _ZNK12_GLOBAL__N_119BossRaidWheelNrvRun7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/BossUtil/BossStateChasePlayer.o:
   '.text':
@@ -14258,50 +14258,50 @@ Boss/GolemClimb/GolemStandBreakState.o:
     label:
     - _ZN20GolemStandBreakStateC1EPKcP14IUseGolemStateP15GolemShoutState
     - _ZN20GolemStandBreakStateC2EPKcP14IUseGolemStateP15GolemShoutState
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d4e8
     size: 96
     label: _ZN20GolemStandBreakState6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d548
     size: 16
     label: _ZN20GolemStandBreakState4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d558
     size: 108
     label: _ZN20GolemStandBreakState9exeDamageEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d5c4
     size: 124
     label: _ZN20GolemStandBreakState8exeShoutEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d640
     size: 112
     label: _ZN20GolemStandBreakState10exeRecoverEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d6b0
     size: 8
     label: _ZN20GolemStandBreakState10startBreakEP19GolemClimbWeakPoint
-    status: NotDecompiled
+    status: Matching
   - offset: 0x07d6b8
     size: 36
     label: _ZN20GolemStandBreakStateD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x07d6dc
     size: 112
     label: _ZNK12_GLOBAL__N_129GolemStandBreakStateNrvDamage7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x07d74c
     size: 128
     label: _ZNK12_GLOBAL__N_128GolemStandBreakStateNrvShout7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x07d7cc
     size: 116
     label: _ZNK12_GLOBAL__N_130GolemStandBreakStateNrvRecover7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/Koopa/Koopa.o:
   '.text':
@@ -15928,53 +15928,53 @@ Boss/Koopa/KoopaCappyEyes2D.o:
   - offset: 0x08ac50
     size: 120
     label: _ZN16KoopaCappyEyes2DC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08acc8
     size: 132
     label: _ZN16KoopaCappyEyes2DC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08ad4c
     size: 56
     label: _ZN16KoopaCappyEyes2D4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08ad84
     size: 44
     label: _ZN16KoopaCappyEyes2D6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08adb0
     size: 68
     label: _ZN16KoopaCappyEyes2D9disappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08adf4
     size: 12
     label: _ZNK16KoopaCappyEyes2D19isPlayingAppearAnimEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08ae00
     size: 64
     label: _ZN16KoopaCappyEyes2D9exeAppearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08ae40
     size: 60
     label: _ZN16KoopaCappyEyes2D7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08ae7c
     size: 88
     label: _ZN16KoopaCappyEyes2D12exeDisappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x08aed4
     size: 68
     label: _ZNK12_GLOBAL__N_125KoopaCappyEyes2DNrvAppear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x08af18
     size: 92
     label: _ZNK12_GLOBAL__N_128KoopaCappyEyes2DNrvDisappear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x08af74
     size: 64
     label: _ZNK12_GLOBAL__N_123KoopaCappyEyes2DNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/Koopa/KoopaCapScaleAnimator.o:
   '.text':
@@ -16599,48 +16599,48 @@ Boss/Koopa/KoopaFireBeamGround.o:
   - offset: 0x092324
     size: 120
     label: _ZN19KoopaFireBeamGroundC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x09239c
     size: 132
     label: _ZN19KoopaFireBeamGroundC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x092420
     size: 112
     label: _ZN19KoopaFireBeamGround4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x092490
     size: 44
     label: _ZN19KoopaFireBeamGround10appearSignEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0924bc
     size: 44
     label: _ZN19KoopaFireBeamGround6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0924e8
     size: 100
     label: _ZN19KoopaFireBeamGround12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x09254c
     size: 8
     label: _ZN19KoopaFireBeamGround10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x092554
     size: 60
     label: _ZN19KoopaFireBeamGround13exeAppearSignEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x092590
     size: 60
     label: _ZN19KoopaFireBeamGround7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0925cc
     size: 64
     label: _ZNK12_GLOBAL__N_132KoopaFireBeamGroundNrvAppearSign7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x09260c
     size: 64
     label: _ZNK12_GLOBAL__N_126KoopaFireBeamGroundNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/Koopa/KoopaFlag.o:
   '.text':
@@ -17145,31 +17145,31 @@ Boss/Koopa/KoopaLandPointHolder.o:
     label:
     - _ZN20KoopaLandPointHolderC1ERKN2al13ActorInitInfoE
     - _ZN20KoopaLandPointHolderC2ERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0956b8
     size: 252
     label: _ZN20KoopaLandPointHolder18decidePointFarFromERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0957b4
     size: 32
     label: _ZN20KoopaLandPointHolder15invalidatePointEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0957d4
     size: 452
     label: _ZN20KoopaLandPointHolder24decidePointEitherFarSideERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x095998
     size: 252
     label: _ZN20KoopaLandPointHolder19decidePointNearFromERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x095a94
     size: 44
     label: _ZN20KoopaLandPointHolder5resetEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x095ac0
     size: 264
     label: _ZNK20KoopaLandPointHolder21findNearestPointTransERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
 Boss/Koopa/KoopaLv1.o:
   '.text':
   - offset: 0x095bc8
@@ -18810,42 +18810,42 @@ Boss/Koopa/KoopaStateHitPunch.o:
     label:
     - _ZN18KoopaStateHitPunchC1EPN2al9LiveActorEP8KoopaCapP9KoopaFlagP18KoopaNumberCounter
     - _ZN18KoopaStateHitPunchC2EPN2al9LiveActorEP8KoopaCapP9KoopaFlagP18KoopaNumberCounter
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0a0098
     size: 72
     label: _ZN18KoopaStateHitPunch6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0a00e0
     size: 96
     label: _ZN18KoopaStateHitPunch11exeHitFirstEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0a0140
     size: 104
     label: _ZN18KoopaStateHitPunch6exeHitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0a01a8
     size: 128
     label: _ZN18KoopaStateHitPunch9exeHitEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0a0228
     size: 36
     label: _ZN18KoopaStateHitPunchD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x0a024c
     size: 108
     label: _ZNK12_GLOBAL__N_124KoopaStateHitPunchNrvHit7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x0a02b8
     size: 100
     label: _ZNK12_GLOBAL__N_129KoopaStateHitPunchNrvHitFirst7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x0a031c
     size: 8
     label: _ZNK12_GLOBAL__N_127KoopaStateHitPunchNrvHitEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Boss/Koopa/KoopaStateJump.o:
   '.text':
@@ -25212,15 +25212,15 @@ Enemy/Bros.o:
   - offset: 0x0da214
     size: 184
     label: _ZN14BrosWeaponBaseC2EPKcPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0da2cc
     size: 172
     label: _ZN14BrosWeaponBase6attachEPKN4sead8Matrix34IfEERKNS0_7Vector3IfEES8_PKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0da378
     size: 676
     label: _ZN14BrosWeaponBase13calcAttachMtxEPN4sead8Matrix34IfEEPKS2_RKNS0_7Vector3IfEES9_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0da61c
     size: 200
     label: _ZN12BrosHackBaseC2EiPKcbS1_
@@ -25328,12 +25328,12 @@ Enemy/Bros.o:
   - offset: 0x0db5dc
     size: 8
     label: _ZNK14BrosWeaponBase12getBreakStepEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x0db5e4
     size: 8
     label: _ZNK14BrosWeaponBase7isBreakEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x0db5ec
     size: 4
@@ -28094,68 +28094,68 @@ Enemy/DonkeyKong2D.o:
   - offset: 0x0f7ecc
     size: 164
     label: _ZN12DonkeyKong2DC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f7f70
     size: 160
     label: _ZN12DonkeyKong2DC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f8010
     size: 500
     label: _ZN12DonkeyKong2D4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f8204
     size: 96
     label: _ZN12DonkeyKong2D12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f8264
     size: 260
     label: _ZN12DonkeyKong2D10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f8368
     size: 116
     label: _ZN12DonkeyKong2D7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f83dc
     size: 216
     label: _ZN12DonkeyKong2D8exeThrowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f84b4
     size: 88
     label: _ZN12DonkeyKong2D9exeDamageEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f850c
     size: 292
     label: _ZN12DonkeyKong2D7exeDownEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x0f8630
     size: 8
     label: _ZNK12DonkeyKong2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x0f8638
     size: 8
     label: _ZThn264_NK12DonkeyKong2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x0f8640
     size: 120
     label: _ZNK12_GLOBAL__N_119DonkeyKong2DNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x0f86b8
     size: 8
     label: _ZNK12_GLOBAL__N_119DonkeyKong2DNrvDown7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x0f86c0
     size: 92
     label: _ZNK12_GLOBAL__N_121DonkeyKong2DNrvDamage7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x0f871c
     size: 8
     label: _ZNK12_GLOBAL__N_120DonkeyKong2DNrvThrow7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Enemy/Donsuke.o:
   '.text':
@@ -31536,48 +31536,48 @@ Enemy/HosuiTrail.o:
   - offset: 0x11c334
     size: 132
     label: _ZN10HosuiTrailC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c3b8
     size: 136
     label: _ZN10HosuiTrailC1Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c440
     size: 152
     label: _ZN10HosuiTrail4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c4d8
     size: 84
     label: _ZN10HosuiTrail6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c52c
     size: 80
     label: _ZN10HosuiTrail9disappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c57c
     size: 92
     label: _ZN10HosuiTrail23setFollowCollisionPartsEPKN2al14CollisionPartsE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c5d8
     size: 136
     label: _ZN10HosuiTrail9exeAppearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c660
     size: 88
     label: _ZN10HosuiTrail12exeDisappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c6b8
     size: 68
     label: _ZN10HosuiTrail7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c6fc
     size: 140
     label: _ZNK12_GLOBAL__N_119HosuiTrailNrvAppear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x11c788
     size: 92
     label: _ZNK12_GLOBAL__N_122HosuiTrailNrvDisappear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Enemy/HosuiTrailKeeper.o:
   '.text':
@@ -31586,15 +31586,15 @@ Enemy/HosuiTrailKeeper.o:
     label:
     - _ZN16HosuiTrailKeeperC1ERKN2al13ActorInitInfoE
     - _ZN16HosuiTrailKeeperC2ERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11c89c
     size: 728
     label: _ZN16HosuiTrailKeeper11appearTrailERKN4sead7Vector3IfEES4_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x11cb74
     size: 148
     label: _ZN16HosuiTrailKeeper12forceKillAllEv
-    status: NotDecompiled
+    status: Matching
 Enemy/HosuiUtil.o:
   '.text':
   - offset: 0x11cc08
@@ -31612,7 +31612,7 @@ Enemy/HosuiUtil.o:
   - offset: 0x11cdd0
     size: 4
     label: _ZN16HosuiTrailKeeperD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Enemy/HosuiWaterBall.o:
   '.text':
@@ -33763,52 +33763,52 @@ Enemy/JokuHand.o:
   - offset: 0x137d4c
     size: 124
     label: _ZN8JokuHandC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137dc8
     size: 136
     label: _ZN8JokuHandC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137e50
     size: 120
     label: _ZN8JokuHand4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137ec8
     size: 124
     label: _ZN8JokuHand12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137f44
     size: 72
     label: _ZN8JokuHand10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137f8c
     size: 8
     label: _ZN8JokuHand7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137f94
     size: 56
     label: _ZN8JokuHand6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137fcc
     size: 12
     label: _ZN8JokuHand6damageEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x137fd8
     size: 60
     label: _ZN8JokuHand7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x138014
     size: 92
     label: _ZN8JokuHand9exeDamageEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x138070
     size: 64
     label: _ZNK12_GLOBAL__N_115JokuHandNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x1380b0
     size: 96
     label: _ZNK12_GLOBAL__N_117JokuHandNrvDamage7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Enemy/JugemFishing.o:
   '.text':
@@ -44474,40 +44474,40 @@ Enemy/WanwanHole.o:
   - offset: 0x1ac7d4
     size: 120
     label: _ZN10WanwanHoleC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac84c
     size: 132
     label: _ZN10WanwanHoleC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac8d0
     size: 116
     label: _ZN10WanwanHole4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac944
     size: 112
     label: _ZN10WanwanHole12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac9b4
     size: 8
     label: _ZN10WanwanHole10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac9bc
     size: 52
     label: _ZN10WanwanHole7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1ac9f0
     size: 96
     label: _ZN10WanwanHole5exeInEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x1aca50
     size: 56
     label: _ZNK12_GLOBAL__N_117WanwanHoleNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x1aca88
     size: 100
     label: _ZNK12_GLOBAL__N_115WanwanHoleNrvIn7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Enemy/WanwanStateHack.o:
   '.text':
@@ -58915,40 +58915,40 @@ MapObj/BlockEmpty2D.o:
   - offset: 0x21d248
     size: 152
     label: _ZN12BlockEmpty2DC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d2e0
     size: 148
     label: _ZN12BlockEmpty2DC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d374
     size: 320
     label: _ZN12BlockEmpty2D4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d4b4
     size: 240
     label: _ZN12BlockEmpty2D18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d5a4
     size: 16
     label: _ZN12BlockEmpty2D7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d5b4
     size: 56
     label: _ZN12BlockEmpty2D6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d5ec
     size: 104
     label: _ZN12BlockEmpty2D10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21d654
     size: 8
     label: _ZNK12BlockEmpty2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x21d65c
     size: 8
     label: _ZThn264_NK12BlockEmpty2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 MapObj/BlockHard.o:
   '.text':
@@ -59090,66 +59090,66 @@ MapObj/BlockQuestion2D.o:
   - offset: 0x21eaac
     size: 168
     label: _ZN15BlockQuestion2DC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21eb54
     size: 164
     label: _ZN15BlockQuestion2DC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21ebf8
     size: 588
     label: _ZN15BlockQuestion2D4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21ee44
     size: 224
     label: _ZN15BlockQuestion2D18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21ef24
     size: 56
     label: _ZN15BlockQuestion2D6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21ef5c
     size: 16
     label: _ZN15BlockQuestion2D7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21ef6c
     size: 132
     label: _ZN15BlockQuestion2D12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21eff0
     size: 240
     label: _ZN15BlockQuestion2D10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21f0e0
     size: 100
     label: _ZN15BlockQuestion2D10endClippedEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21f144
     size: 88
     label: _ZN15BlockQuestion2D13exeSingleItemEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21f19c
     size: 76
     label: _ZN15BlockQuestion2D10exeTenCoinEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x21f1e8
     size: 8
     label: _ZNK15BlockQuestion2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x21f1f0
     size: 8
     label: _ZThn264_NK15BlockQuestion2D23getActorDimensionKeeperEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x21f1f8
     size: 80
     label: _ZNK12_GLOBAL__N_125BlockQuestion2DNrvTenCoin7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x21f248
     size: 92
     label: _ZNK12_GLOBAL__N_128BlockQuestion2DNrvSingleItem7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/BlockStateNoItem.o:
   '.text':
@@ -59551,45 +59551,45 @@ MapObj/BossKnuckleFix.o:
   - offset: 0x222ee4
     size: 128
     label: _ZN14BossKnuckleFixC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x222f64
     size: 140
     label: _ZN14BossKnuckleFixC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x222ff0
     size: 336
     label: _ZN14BossKnuckleFix4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x223140
     size: 208
     label: _ZN14BossKnuckleFix10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x223210
     size: 60
     label: _ZN14BossKnuckleFix7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x22324c
     size: 88
     label: _ZN14BossKnuckleFix11exeReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2232a4
     size: 104
     label: _ZN14BossKnuckleFix16exeReactionLargeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x22330c
     size: 64
     label: _ZNK12_GLOBAL__N_121BossKnuckleFixNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x22334c
     size: 108
     label: _ZNK12_GLOBAL__N_130BossKnuckleFixNrvReactionLarge7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2233b8
     size: 92
     label: _ZNK12_GLOBAL__N_125BossKnuckleFixNrvReaction7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/BreakablePole.o:
   '.text':
@@ -64014,92 +64014,92 @@ MapObj/CheckpointFlag.o:
   - offset: 0x2495b8
     size: 188
     label: _ZN14CheckpointFlagC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249674
     size: 184
     label: _ZN14CheckpointFlagC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x24972c
     size: 792
     label: _ZN14CheckpointFlag4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249a44
     size: 4
     label: _ZN14CheckpointFlag18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249a48
     size: 44
     label: _ZN14CheckpointFlag7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249a74
     size: 108
     label: _ZN14CheckpointFlag12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249ae0
     size: 688
     label: _ZN14CheckpointFlag10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249d90
     size: 8
     label: _ZNK14CheckpointFlag20getPlayerRestartInfoEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249d98
     size: 80
     label: _ZN14CheckpointFlag8setAfterEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249de8
     size: 16
     label: _ZN14CheckpointFlag17startArriveByWarpEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249df8
     size: 20
     label: _ZN14CheckpointFlag12initHomeFlagERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249e0c
     size: 148
     label: _ZN14CheckpointFlag9exeBeforeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249ea0
     size: 132
     label: _ZN14CheckpointFlag6exeGetEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249f24
     size: 124
     label: _ZN14CheckpointFlag8exeAfterEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x249fa0
     size: 168
     label: _ZN14CheckpointFlag8exeShakeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x24a048
     size: 8
     label: _ZNK14CheckpointFlag16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x24a050
     size: 8
     label: _ZThn264_NK14CheckpointFlag16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x24a058
     size: 8
     label: _ZNK12_GLOBAL__N_123CheckpointFlagNrvBefore7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x24a060
     size: 128
     label: _ZNK12_GLOBAL__N_122CheckpointFlagNrvAfter7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x24a0e0
     size: 8
     label: _ZNK12_GLOBAL__N_120CheckpointFlagNrvGet7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x24a0e8
     size: 8
     label: _ZNK12_GLOBAL__N_122CheckpointFlagNrvShake7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/CheckpointFlagWatcher.o:
   '.text':
@@ -66674,64 +66674,64 @@ MapObj/DoorCity.o:
   - offset: 0x25fe38
     size: 120
     label: _ZN8DoorCityC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x25feb0
     size: 132
     label: _ZN8DoorCityC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x25ff34
     size: 304
     label: _ZN8DoorCity4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x260064
     size: 12
     label: _ZN8DoorCity13onStageSwitchEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x260070
     size: 4
     label: _ZN8DoorCity15listenSwitchOffEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x260074
     size: 60
     label: _ZN8DoorCity11exeWaitOpenEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2600b0
     size: 96
     label: _ZN8DoorCity7exeOpenEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x260110
     size: 88
     label: _ZN8DoorCity12exeWaitCloseEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x260168
     size: 64
     label: _ZNK12_GLOBAL__N_119DoorCityNrvWaitOpen7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2601a8
     size: 92
     label: _ZNK12_GLOBAL__N_120DoorCityNrvWaitClose7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x260204
     size: 100
     label: _ZNK12_GLOBAL__N_115DoorCityNrvOpen7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x260268
     size: 28
     label: _ZNK2al10FunctorV0MIP8DoorCityMS1_FvvEEclEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x260284
     size: 76
     label: _ZNK2al10FunctorV0MIP8DoorCityMS1_FvvEE5cloneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2602d0
     size: 4
     label: _ZN2al10FunctorV0MIP8DoorCityMS1_FvvEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 MapObj/DoorSnow.o:
   '.text':
@@ -67667,102 +67667,102 @@ MapObj/ElectricSwitch.o:
   - offset: 0x266754
     size: 124
     label: _ZN14ElectricSwitchC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2667d0
     size: 136
     label: _ZN14ElectricSwitchC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266858
     size: 84
     label: _ZN14ElectricSwitch4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2668ac
     size: 8
     label: _ZN14ElectricSwitch12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2668b4
     size: 108
     label: _ZN14ElectricSwitch10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266920
     size: 28
     label: _ZN14ElectricSwitch18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x26693c
     size: 16
     label: _ZN14ElectricSwitch7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x26694c
     size: 72
     label: _ZN14ElectricSwitch7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266994
     size: 132
     label: _ZN14ElectricSwitch14exeHitReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266a18
     size: 4
     label: _ZN14ElectricSwitch14exeReactionEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266a1c
     size: 76
     label: _ZNK12_GLOBAL__N_121ElectricSwitchNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x266a68
     size: 8
     label: _ZNK12_GLOBAL__N_128ElectricSwitchNrvHitReaction7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x266a70
     size: 4
     label: _ZNK12_GLOBAL__N_128ElectricSwitchNrvReactionEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/ElectricTargetInfo.o:
   '.text':
   - offset: 0x266a74
     size: 144
     label: _ZNK10TargetInfo4distEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266b04
     size: 188
     label:
     - _ZN14TargetInfoListC1Ev
     - _ZN14TargetInfoListC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266bc0
     size: 100
     label: _ZN14TargetInfoList5clearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266c24
     size: 104
     label: _ZN14TargetInfoList6appendEPKN2al9LiveActorES3_i
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266c8c
     size: 144
     label: _ZN14TargetInfoList6removeEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266d1c
     size: 88
     label: _ZN14TargetInfoList6removeEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266d74
     size: 76
     label: _ZNK14TargetInfoList9isIncludeEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266dc0
     size: 88
     label: _ZN14TargetInfoList6elapseEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266e18
     size: 180
     label: _ZN14TargetInfoList7surviveEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x266ecc
     size: 16
     label: _ZN14TargetInfoList4sortEv
-    status: NotDecompiled
+    status: Matching
 MapObj/ElectricWire.o:
   '.text':
   - offset: 0x266edc
@@ -68045,7 +68045,7 @@ MapObj/ElectricWire.o:
   - offset: 0x26d954
     size: 408
     label: _ZN4sead8PtrArrayI10TargetInfoE8compareTEPKS1_S4_
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x26daec
     size: 28
@@ -69085,40 +69085,40 @@ MapObj/FastenerObjSpace.o:
   - offset: 0x27e1bc
     size: 124
     label: _ZN16FastenerObjSpaceC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e238
     size: 136
     label: _ZN16FastenerObjSpaceC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e2c0
     size: 112
     label: _ZN16FastenerObjSpace4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e330
     size: 56
     label: _ZN16FastenerObjSpace6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e368
     size: 44
     label: _ZN16FastenerObjSpace9disappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e394
     size: 4
     label: _ZN16FastenerObjSpace7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e398
     size: 92
     label: _ZN16FastenerObjSpace12exeDisappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x27e3f4
     size: 8
     label: _ZNK12_GLOBAL__N_123FastenerObjSpaceNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x27e3fc
     size: 96
     label: _ZNK12_GLOBAL__N_128FastenerObjSpaceNrvDisappear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/FastenerRailKeeper.o:
   '.text':
@@ -69875,51 +69875,51 @@ MapObj/FixMapPartsBgmChangeAction.o:
   - offset: 0x28496c
     size: 124
     label: _ZN26FixMapPartsBgmChangeActionC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2849e8
     size: 136
     label: _ZN26FixMapPartsBgmChangeActionC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x284a70
     size: 108
     label: _ZN26FixMapPartsBgmChangeAction4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x284adc
     size: 8
     label: _ZN26FixMapPartsBgmChangeAction10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x284ae4
     size: 68
     label: _ZN26FixMapPartsBgmChangeAction7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x284b28
     size: 68
     label: _ZN26FixMapPartsBgmChangeAction13exePlayingBgmEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x284b6c
     size: 68
     label: _ZNK12_GLOBAL__N_133FixMapPartsBgmChangeActionNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x284bb0
     size: 12
     label: _ZNK12_GLOBAL__N_133FixMapPartsBgmChangeActionNrvWait13getActionNameEv
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x284bbc
     size: 68
     label: _ZNK12_GLOBAL__N_139FixMapPartsBgmChangeActionNrvPlayingBgm7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x284c00
     size: 12
     label: _ZNK12_GLOBAL__N_139FixMapPartsBgmChangeActionNrvPlayingBgm13getActionNameEv
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x284c0c
     size: 88
-    label: ''
-    status: NotDecompiled
+    label: _GLOBAL__sub_I_FixMapPartsBgmChangeAction.cpp
+    status: Matching
 MapObj/FixMapPartsCapHanger.o:
   '.text':
   - offset: 0x284c64
@@ -73021,68 +73021,68 @@ MapObj/HipDropRepairParts.o:
   - offset: 0x2a2e68
     size: 168
     label: _ZN18HipDropRepairPartsC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a2f10
     size: 180
     label: _ZN18HipDropRepairPartsC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a2fc4
     size: 492
     label: _ZN18HipDropRepairParts4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a31b0
     size: 52
     label: _ZN18HipDropRepairParts9startHideEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a31e4
     size: 52
     label: _ZN18HipDropRepairParts9startShowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a3218
     size: 116
     label: _ZN18HipDropRepairParts10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a328c
     size: 4
     label: _ZN18HipDropRepairParts7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a3290
     size: 248
     label: _ZN18HipDropRepairParts5exeOnEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a3388
     size: 4
     label: _ZN18HipDropRepairParts9exeOnWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2a338c
     size: 4
     label: _ZNK12_GLOBAL__N_125HipDropRepairPartsNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2a3390
     size: 8
     label: _ZNK12_GLOBAL__N_123HipDropRepairPartsNrvOn7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2a3398
     size: 4
     label: _ZNK12_GLOBAL__N_127HipDropRepairPartsNrvOnWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2a339c
     size: 28
     label: _ZNK2al10FunctorV0MIP18HipDropRepairPartsMS1_FvvEEclEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2a33b8
     size: 76
     label: _ZNK2al10FunctorV0MIP18HipDropRepairPartsMS1_FvvEE5cloneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2a3404
     size: 4
     label: _ZN2al10FunctorV0MIP18HipDropRepairPartsMS1_FvvEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 MapObj/HipDropSwitch.o:
   '.text':
@@ -75869,59 +75869,59 @@ MapObj/MeganePartsState.o:
     label:
     - _ZN16MeganePartsStateC1EPN2al9LiveActorE
     - _ZN16MeganePartsStateC2EPN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bcf00
     size: 60
     label: _ZN16MeganePartsState6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bcf3c
     size: 156
     label: _ZN16MeganePartsState6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bcfd8
     size: 84
     label: _ZN16MeganePartsState7exeHideEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bd02c
     size: 288
     label: _ZN16MeganePartsState5exeOnEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bd14c
     size: 172
     label: _ZN16MeganePartsState11updateAlphaEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bd1f8
     size: 68
     label: _ZN16MeganePartsState7exeShowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bd23c
     size: 268
     label: _ZN16MeganePartsState6exeOffEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bd348
     size: 36
     label: _ZN16MeganePartsStateD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2bd36c
     size: 88
     label: _ZNK12_GLOBAL__N_123MeganePartsStateNrvHide7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2bd3c4
     size: 8
     label: _ZNK12_GLOBAL__N_121MeganePartsStateNrvOn7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2bd3cc
     size: 8
     label: _ZNK12_GLOBAL__N_122MeganePartsStateNrvOff7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2bd3d4
     size: 68
     label: _ZNK12_GLOBAL__N_123MeganePartsStateNrvShow7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/Mirror.o:
   '.text':
@@ -76017,40 +76017,40 @@ MapObj/MoonBasementBreakParts.o:
   - offset: 0x2be9a0
     size: 120
     label: _ZN22MoonBasementBreakPartsC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bea18
     size: 132
     label: _ZN22MoonBasementBreakPartsC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bea9c
     size: 112
     label: _ZN22MoonBasementBreakParts4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2beb0c
     size: 44
     label: _ZN22MoonBasementBreakParts6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2beb38
     size: 52
     label: _ZN22MoonBasementBreakParts4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2beb6c
     size: 60
     label: _ZN22MoonBasementBreakParts7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2beba8
     size: 52
     label: _ZN22MoonBasementBreakParts8exeBreakEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2bebdc
     size: 64
     label: _ZNK12_GLOBAL__N_129MoonBasementBreakPartsNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2bec1c
     size: 56
     label: _ZNK12_GLOBAL__N_130MoonBasementBreakPartsNrvBreak7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/MoonBasementClimaxWatcher.o:
   '.text':
@@ -76398,101 +76398,101 @@ MapObj/MoonBasementFloor.o:
   - offset: 0x2c17dc
     size: 128
     label: _ZN17MoonBasementFloorC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c185c
     size: 140
     label: _ZN17MoonBasementFloorC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c18e8
     size: 216
     label: _ZN17MoonBasementFloor4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c19c0
     size: 132
     label: _ZN17MoonBasementFloor17startFallBySwitchEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1a44
     size: 52
     label: _ZN17MoonBasementFloor8movementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1a78
     size: 148
     label: _ZN17MoonBasementFloor10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1b0c
     size: 60
     label: _ZN17MoonBasementFloor7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1b48
     size: 140
     label: _ZN17MoonBasementFloor16exeFallSignStartEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1bd4
     size: 68
     label: _ZN17MoonBasementFloor11exeFallSignEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1c18
     size: 84
     label: _ZN17MoonBasementFloor19exeFallSignBySwitchEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1c6c
     size: 220
     label: _ZN17MoonBasementFloor7exeFallEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2c1d48
     size: 64
     label: _ZNK12_GLOBAL__N_124MoonBasementFloorNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1d88
     size: 8
     label: _ZNK12_GLOBAL__N_133MoonBasementFloorNrvFallSignStart7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1d90
     size: 8
     label: _ZNK12_GLOBAL__N_141MoonBasementFloorNrvFallSignStartByMeteor7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1d98
     size: 8
     label: _ZNK12_GLOBAL__N_141MoonBasementFloorNrvFallSignStartBySwitch7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1da0
     size: 88
     label: _ZNK12_GLOBAL__N_136MoonBasementFloorNrvFallSignBySwitch7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1df8
     size: 8
     label: _ZNK12_GLOBAL__N_132MoonBasementFloorNrvFallByMeteor7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1e00
     size: 72
     label: _ZNK12_GLOBAL__N_128MoonBasementFloorNrvFallSign7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1e48
     size: 8
     label: _ZNK12_GLOBAL__N_124MoonBasementFloorNrvFall7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2c1e50
     size: 28
     label: _ZNK2al10FunctorV0MIP17MoonBasementFloorMS1_FvvEEclEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2c1e6c
     size: 76
     label: _ZNK2al10FunctorV0MIP17MoonBasementFloorMS1_FvvEE5cloneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x2c1eb8
     size: 4
     label: _ZN2al10FunctorV0MIP17MoonBasementFloorMS1_FvvEED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 MapObj/MoonBasementGate.o:
   '.text':
@@ -78819,36 +78819,36 @@ MapObj/PeachTrunk.o:
   - offset: 0x2dd3a4
     size: 120
     label: _ZN10PeachTrunkC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd41c
     size: 132
     label: _ZN10PeachTrunkC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd4a0
     size: 112
     label: _ZN10PeachTrunk4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd510
     size: 116
     label: _ZN10PeachTrunk10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd584
     size: 60
     label: _ZN10PeachTrunk7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd5c0
     size: 64
     label: _ZN10PeachTrunk14exeReactionCapEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2dd600
     size: 64
     label: _ZNK12_GLOBAL__N_117PeachTrunkNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2dd640
     size: 68
     label: _ZNK12_GLOBAL__N_124PeachTrunkNrvReactionCap7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/PeachWorldGate.o:
   '.text':
@@ -81276,36 +81276,36 @@ MapObj/ReactionMapParts.o:
   - offset: 0x2f3fa0
     size: 120
     label: _ZN16ReactionMapPartsC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f4018
     size: 132
     label: _ZN16ReactionMapPartsC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f409c
     size: 60
     label: _ZN16ReactionMapParts4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f40d8
     size: 84
     label: _ZN16ReactionMapParts10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f412c
     size: 60
     label: _ZN16ReactionMapParts7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f4168
     size: 88
     label: _ZN16ReactionMapParts11exeReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2f41c0
     size: 64
     label: _ZNK12_GLOBAL__N_123ReactionMapPartsNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2f4200
     size: 92
     label: _ZNK12_GLOBAL__N_127ReactionMapPartsNrvReaction7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/ReactionObject.o:
   '.text':
@@ -82302,103 +82302,103 @@ MapObj/RocketFlower.o:
   - offset: 0x2fd628
     size: 128
     label: _ZN12RocketFlowerC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd6a8
     size: 140
     label: _ZN12RocketFlowerC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd734
     size: 268
     label: _ZN12RocketFlower4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd840
     size: 28
     label: _ZN12RocketFlower18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd85c
     size: 156
     label: _ZN12RocketFlower12attackSensorEPN2al9HitSensorES2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd8f8
     size: 84
     label: _ZNK12RocketFlower13isEnableEquipEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fd94c
     size: 664
     label: _ZN12RocketFlower10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdbe4
     size: 116
     label: _ZN12RocketFlower15terminateFollowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdc58
     size: 76
     label: _ZN12RocketFlower7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdca4
     size: 100
     label: _ZN12RocketFlower13exeWaitFollowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdd08
     size: 412
     label: _ZN12RocketFlower19trySyncFlyingCapPosEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdea4
     size: 324
     label: _ZN12RocketFlower9exeFollowEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fdfe8
     size: 108
     label: _ZN12RocketFlower15appearFlowerSubEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe054
     size: 164
     label: _ZN12RocketFlower13exeWaitAttachEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe0f8
     size: 60
     label: _ZN12RocketFlower9exeAttachEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe134
     size: 48
     label: _ZN12RocketFlower19setFollowFlowerPoseERKN4sead4QuatIfEERKNS0_7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe164
     size: 16
     label: _ZN12RocketFlower9disappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe174
     size: 124
     label: _ZN12RocketFlower14disappearForceEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe1f0
     size: 104
     label: _ZN12RocketFlower7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x2fe258
     size: 80
     label: _ZNK12_GLOBAL__N_119RocketFlowerNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2fe2a8
     size: 64
     label: _ZNK12_GLOBAL__N_121RocketFlowerNrvAttach7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2fe2e8
     size: 104
     label: _ZNK12_GLOBAL__N_125RocketFlowerNrvWaitFollow7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2fe350
     size: 8
     label: _ZNK12_GLOBAL__N_121RocketFlowerNrvFollow7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x2fe358
     size: 8
     label: _ZNK12_GLOBAL__N_125RocketFlowerNrvWaitAttach7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/RocketFlowerEquipWatcher.o:
   '.text':
@@ -85550,36 +85550,36 @@ MapObj/SignBoard.o:
   - offset: 0x31ac48
     size: 124
     label: _ZN9SignBoardC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31acc4
     size: 136
     label: _ZN9SignBoardC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31ad4c
     size: 312
     label: _ZN9SignBoard4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31ae84
     size: 60
     label: _ZN9SignBoard7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31aec0
     size: 88
     label: _ZN9SignBoard11exeReactionEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31af18
     size: 124
     label: _ZN9SignBoard10receiveMsgEPKN2al9SensorMsgEPNS0_9HitSensorES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x31af94
     size: 64
     label: _ZNK12_GLOBAL__N_116SignBoardNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x31afd4
     size: 92
     label: _ZNK12_GLOBAL__N_120SignBoardNrvReaction7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/SignBoardBlow.o:
   '.text':
@@ -88350,23 +88350,23 @@ MapObj/TalkPoint.o:
   - offset: 0x3339b8
     size: 124
     label: _ZN9TalkPointC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x333a34
     size: 136
     label: _ZN9TalkPointC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x333abc
     size: 324
     label: _ZN9TalkPoint4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x333c00
     size: 8
     label: _ZN9TalkPoint7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x333c08
     size: 12
     label: _ZNK12_GLOBAL__N_116TalkPointNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 MapObj/TaxiStop.o:
   '.text':
@@ -89148,66 +89148,66 @@ MapObj/TouchActionMessageDirector.o:
     label:
     - _ZN26TouchActionMessageDirectorC1Ev
     - _ZN26TouchActionMessageDirectorC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339eb8
     size: 104
     label: _ZN26TouchActionMessageDirector4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339f20
     size: 8
     label: _ZN26TouchActionMessageDirector6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339f28
     size: 8
     label: _ZNK26TouchActionMessageDirector11isTouchHoldEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339f30
     size: 12
     label: _ZNK26TouchActionMessageDirector20getRotateSpeedDegreeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339f3c
     size: 92
     label: _ZNK26TouchActionMessageDirector13tryGetMoveVecEPN4sead7Vector2IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339f98
     size: 68
     label: _ZNK26TouchActionMessageDirector14tryGetSlideDirEPN4sead7Vector2IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x339fdc
     size: 40
     label: _ZN2rs13isTimeHandledEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x33a004
     size: 44
     label: _ZN2rs30getTimeHandleRotateSpeedDegreeEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x33a030
     size: 112
     label: _ZN2rs24tryGetTouchActionMoveVecEPN4sead7Vector2IfEEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x33a0a0
     size: 88
     label: _ZN2rs25tryGetTouchActionSlideDirEPN4sead7Vector2IfEEPKN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x33a0f8
     size: 12
     label: _ZNK26TouchActionMessageDirector15getSceneObjNameEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x33a104
     size: 4
     label: _ZN26TouchActionMessageDirectorD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x33a108
     size: 8
     label: _ZNK26TouchActionMessageDirector20getCollisionDirectorEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x33a110
     size: 8
     label: _ZThn8_NK26TouchActionMessageDirector20getCollisionDirectorEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 MapObj/TouchTargetInfo.o:
   '.text':
@@ -91289,54 +91289,52 @@ MapObj/WorldMapParts.o:
     size: 28
     label: _ZN13WorldMapParts11setLocalMtxERKN4sead8Matrix34IfEE
     status: Matching
-MapObj/WorldMapPartsFloat.o:
-  '.text':
   - offset: 0x34bb5c
     size: 332
     label: _ZN18WorldMapPartsFloatC2EPKcRKN4sead7Vector3IfEEif
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34bca8
     size: 316
     label: _ZN18WorldMapPartsFloatC1EPKcRKN4sead7Vector3IfEEif
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34bde4
     size: 288
     label: _ZN18WorldMapPartsFloat7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34bf04
     size: 88
     label: _ZN18WorldMapPartsFloat11setLocalMtxERKN4sead8Matrix34IfEE
-    status: NotDecompiled
+    status: Matching
 MapObj/WorldMapPlayerIcon.o:
   '.text':
   - offset: 0x34bf5c
     size: 292
     label: _ZN18WorldMapPlayerIcon6createEPKcRKN2al13ActorInitInfoEPKN4sead8Matrix34IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34c080
     size: 148
     label: _ZN18WorldMapPlayerIconC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34c114
     size: 136
     label: _ZN18WorldMapPlayerIconC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34c19c
     size: 88
     label: _ZN18WorldMapPlayerIcon8movementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34c1f4
     size: 108
-    label: ''
-    status: NotDecompiled
+    label: _ZL17movementRecursivePN2al9LiveActorE
+    status: Matching
   - offset: 0x34c260
     size: 88
     label: _ZN18WorldMapPlayerIcon8calcAnimEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x34c2b8
     size: 108
-    label: ''
-    status: NotDecompiled
+    label: _ZL17calcAnimRecursivePN2al9LiveActorE
+    status: Matching
 MapObj/WorldMapRoute.o:
   '.text':
   - offset: 0x34c324
@@ -99082,50 +99080,50 @@ ModeBalloon/TimeBalloonStateShowResult.o:
     label:
     - _ZN26TimeBalloonStateShowResultC1EP26StageSceneStateTimeBalloonPN2al25SimpleLayoutAppearWaitEndEPK31IBalloonFindMyAchievementHolderRKNS2_14LayoutInitInfoE
     - _ZN26TimeBalloonStateShowResultC2EP26StageSceneStateTimeBalloonPN2al25SimpleLayoutAppearWaitEndEPK31IBalloonFindMyAchievementHolderRKNS2_14LayoutInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x37756c
     size: 16
     label: _ZN26TimeBalloonStateShowResult4initEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x37757c
     size: 16
     label: _ZN26TimeBalloonStateShowResult6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x37758c
     size: 104
     label: _ZN26TimeBalloonStateShowResult9exeAppearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3775f4
     size: 84
     label: _ZN26TimeBalloonStateShowResult7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x377648
     size: 80
     label: _ZN26TimeBalloonStateShowResult6exeEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x377698
     size: 12
     label: _ZN26TimeBalloonStateShowResult12setNerveWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3776a4
     size: 36
     label: _ZN26TimeBalloonStateShowResultD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3776c8
     size: 108
     label: _ZNK12_GLOBAL__N_135TimeBalloonStateShowResultNrvAppear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x377734
     size: 84
     label: _ZNK12_GLOBAL__N_133TimeBalloonStateShowResultNrvWait7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x377788
     size: 84
     label: _ZNK12_GLOBAL__N_132TimeBalloonStateShowResultNrvEnd7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 ModeBalloon/TimeBalloonStateWatchFindBalloon.o:
   '.text':
@@ -101076,156 +101074,156 @@ Npc/FlyObject.o:
     label:
     - _ZN22WaveMovementControllerC1Ev
     - _ZN22WaveMovementControllerC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3898e4
     size: 132
     label: _ZN22WaveMovementController17calcUpdatedYCoordERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389968
     size: 84
     label: _ZN7OnRails5setUpEPN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3899bc
     size: 344
     label: _ZN7OnRails4moveEPN2al9LiveActorEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389b14
     size: 60
     label: _ZN10Stationary5setUpEPN2al9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389b50
     size: 140
     label: _ZN10Stationary4moveEPN2al9LiveActorEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389bdc
     size: 32
     label: _ZN23FukanKunInteractionBaseC2Ei
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389bfc
     size: 8
     label: _ZN23FukanKunInteractionBase4initEP9FlyObjectRKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389c04
     size: 24
     label: _ZN23FukanKunInteractionBase5setUpEP9FlyObject
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389c1c
     size: 96
     label: _ZN23FukanKunInteractionBase7controlEP9FlyObject
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389c7c
     size: 144
     label:
     - _ZN21FukanKunMessageHolderC1Ev
     - _ZN21FukanKunMessageHolderC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389d0c
     size: 300
     label: _ZN21FukanKunMessageHolder4initEP9FlyObjectRKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389e38
     size: 72
     label: _ZN21FukanKunMessageHolder8interactEP9FlyObject
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389e80
     size: 40
     label:
     - _ZN19FukanKunShineHolderC1Ev
     - _ZN19FukanKunShineHolderC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389ea8
     size: 60
     label: _ZN19FukanKunShineHolder4initEP9FlyObjectRKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389ee4
     size: 8
     label: _ZN19FukanKunShineHolder8interactEP9FlyObject
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389eec
     size: 156
     label: _ZN9FlyObjectC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x389f88
     size: 152
     label: _ZN9FlyObjectC1EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a020
     size: 684
     label: _ZN9FlyObject4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x38a2cc
     size: 64
     label: _ZN9FlyObject18initAfterPlacementEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a30c
     size: 24
     label: _ZN9FlyObject7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a324
     size: 16
     label: _ZNK9FlyObject16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a334
     size: 16
     label: _ZThn264_NK9FlyObject16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a344
     size: 72
     label: _ZN9FlyObject6exeFlyEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a38c
     size: 12
     label: _ZN9FlyObject12exeDisappearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x38a398
     size: 4
     label: _ZN7OnRailsD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a39c
     size: 4
     label: _ZN10StationaryD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3a0
     size: 8
     label: _ZNK24FukanKunInteractionEmpty16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3a8
     size: 8
     label: _ZNK21FukanKunMessageHolder16getMessageSystemEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3b0
     size: 16
     label: _ZNK12_GLOBAL__N_121FlyObjectNrvDisappear7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x38a3c0
     size: 4
     label: _ZN24FukanKunInteractionEmpty4initEP9FlyObjectRKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3c4
     size: 4
     label: _ZN24FukanKunInteractionEmpty5setUpEP9FlyObject
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3c8
     size: 4
     label: _ZN24FukanKunInteractionEmpty7controlEP9FlyObject
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3cc
     size: 4
     label: _ZN8BehaviorD2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x38a3d0
     size: 76
     label: _ZNK12_GLOBAL__N_115FlyObjectNrvFly7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Npc/ForestManSeed.o:
   '.text':
@@ -104918,56 +104916,56 @@ Npc/PeachOnKoopaAnimRequester.o:
     label:
     - _ZN25PeachOnKoopaAnimRequesterC1Ev
     - _ZN25PeachOnKoopaAnimRequesterC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3add10
     size: 8
     label: _ZN25PeachOnKoopaAnimRequester12resetRequestEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3add18
     size: 76
     label: _ZN2rs29initPeachOnKoopaAnimRequesterEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3add64
     size: 60
     label: _ZN2rs35requestStartPeachOnKoopaAnimSuccessEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3adda0
     size: 60
     label: _ZN2rs39requestStartPeachOnKoopaHitReaction2DInEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3adddc
     size: 60
     label: _ZN2rs40requestStartPeachOnKoopaHitReaction2DOutEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3ade18
     size: 60
     label: _ZN2rs52requestStartPeachOnKoopaHitReactionBreakPillarBridgeEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3ade54
     size: 60
     label: _ZN2rs48requestStartPeachOnKoopaHitReactionCrackGateHardEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3ade90
     size: 60
     label: _ZN2rs48requestStartPeachOnKoopaHitReactionBreakGateHardEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3adecc
     size: 60
     label: _ZN2rs46requestStartPeachOnKoopaHitReactionBreakPillarEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3adf08
     size: 60
     label: _ZN2rs49requestStartPeachOnKoopaHitReactionBreakGateFinalEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x3adf44
     size: 12
     label: _ZNK25PeachOnKoopaAnimRequester15getSceneObjNameEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x3adf50
     size: 4
     label: _ZN25PeachOnKoopaAnimRequesterD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Npc/PeachOnKoopaShoulder.o:
   '.text':
@@ -131571,85 +131569,85 @@ Scene/DemoScene.o:
     label:
     - _ZN9DemoSceneC1EPN2al10WipeHolderE
     - _ZN9DemoSceneC2EPN2al10WipeHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a78bc
     size: 132
     label:
     - _ZN9DemoSceneD1Ev
     - _ZN9DemoSceneD2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a7940
     size: 140
     label: _ZN9DemoSceneD0Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a79cc
     size: 1292
     label: _ZN9DemoScene4initERKN2al13SceneInitInfoE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x4a7ed8
     size: 288
     label: _ZN9DemoScene13initPlacementERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a7ff8
     size: 120
     label: _ZN9DemoScene6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a8070
     size: 68
     label: _ZN9DemoScene7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a80b4
     size: 36
     label: _ZN9DemoScene4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a80d8
     size: 312
     label: _ZNK9DemoScene8drawMainEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a8210
     size: 508
     label: _ZN9DemoScene7exePlayEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a840c
     size: 8
     label: _ZNK9DemoScene9isLoadEndEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a8414
     size: 140
     label: _ZN9DemoScene11exeSkipProcEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a84a0
     size: 4
     label: _ZN9DemoScene10initLayoutERKN2al14LayoutInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a84a4
     size: 152
     label: _ZN9DemoScene16initPlacementSkyEPKN2al9StageInfoERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a853c
     size: 128
     label: _ZN9DemoScene17initPlacementDemoEPKN2al9StageInfoERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a85bc
     size: 160
     label: _ZN9DemoScene19initPlacementObjectEPKN2al9StageInfoERKNS0_13ActorInitInfoEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a865c
     size: 16
     label: _ZNK12_GLOBAL__N_116DemoSceneNrvPlay7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x4a866c
     size: 8
     label: _ZNK12_GLOBAL__N_120DemoSceneNrvSkipProc7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Scene/DemoSceneFunction.o:
   '.text':
   - offset: 0x4a8674
     size: 96
     label: _ZN17DemoSceneFunction28updateKitWithDemoActorHolderEPN2al5SceneEPNS0_15DemoActorHolderEPKcS6_S6_PKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a86d4
     size: 332
     label: ''
@@ -131657,15 +131655,15 @@ Scene/DemoSceneFunction.o:
   - offset: 0x4a8820
     size: 96
     label: _ZN17DemoSceneFunction36updateKitWithDemoActorHolderSequenceEPN2al5SceneEPNS0_15DemoActorHolderEPKcS6_S6_PKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a8880
     size: 120
     label: _ZN17DemoSceneFunction56updateKitWithDemoActorHolderSequenceDemoChangeWorldSceneEPN2al5SceneEPNS0_15DemoActorHolderEPKcS6_S6_PKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a88f8
     size: 156
     label: _ZN17DemoSceneFunction19tryStartDemoEndFadeEPN2al10WipeHolderEPKcP22DemoSceneStateSkipDemoPKNS0_15DemoActorHolderE
-    status: NotDecompiled
+    status: Matching
 Scene/DemoSceneStateSkipDemo.o:
   '.text':
   - offset: 0x4a8994
@@ -131757,23 +131755,23 @@ Scene/DemoSceneWithCinemaCaption.o:
     label:
     - _ZN26DemoSceneWithCinemaCaptionC1EPN2al10WipeHolderE
     - _ZN26DemoSceneWithCinemaCaptionC2EPN2al10WipeHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a9290
     size: 76
     label: _ZN26DemoSceneWithCinemaCaption4initERKN2al13SceneInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a92dc
     size: 48
     label: _ZN26DemoSceneWithCinemaCaption7exePlayEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a930c
     size: 68
     label: _ZN26DemoSceneWithCinemaCaption10initLayoutERKN2al14LayoutInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4a9350
     size: 36
     label: _ZN26DemoSceneWithCinemaCaptionD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Scene/EndingScene.o:
   '.text':
@@ -133613,7 +133611,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b630c
     size: 52
     label: _ZN2al19createActorFunctionI12BlockEmpty2DEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b6340
     size: 52
@@ -133628,7 +133626,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b63a8
     size: 52
     label: _ZN2al19createActorFunctionI15BlockQuestion2DEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b63dc
     size: 52
@@ -133678,7 +133676,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b66dc
     size: 52
     label: _ZN2al19createActorFunctionI14BossKnuckleFixEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b6710
     size: 52
@@ -133918,7 +133916,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b71f0
     size: 52
     label: _ZN2al19createActorFunctionI14CheckpointFlagEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b7224
     size: 52
@@ -134173,7 +134171,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b7cb8
     size: 52
     label: _ZN2al19createActorFunctionI12DonkeyKong2DEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b7cec
     size: 52
@@ -134198,7 +134196,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b7dbc
     size: 52
     label: _ZN2al19createActorFunctionI8DoorCityEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b7df0
     size: 52
@@ -134333,7 +134331,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b8338
     size: 52
     label: _ZN2al19createActorFunctionI26FixMapPartsBgmChangeActionEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b836c
     size: 52
@@ -134363,7 +134361,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b8470
     size: 52
     label: _ZN2al19createActorFunctionI9FlyObjectEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b84a4
     size: 52
@@ -134573,7 +134571,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b8db8
     size: 52
     label: _ZN2al19createActorFunctionI18HipDropRepairPartsEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b8dec
     size: 152
@@ -134823,7 +134821,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b98d0
     size: 52
     label: _ZN2al19createActorFunctionI22MoonBasementBreakPartsEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b9904
     size: 52
@@ -134848,7 +134846,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4b99d4
     size: 52
     label: _ZN2al19createActorFunctionI17MoonBasementFloorEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4b9a08
     size: 52
@@ -135438,7 +135436,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4bbdd4
     size: 52
     label: _ZN2al19createActorFunctionI9SignBoardEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4bbe08
     size: 52
@@ -135598,7 +135596,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4bc4e0
     size: 52
     label: _ZN2al19createActorFunctionI9TalkPointEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4bc514
     size: 52
@@ -135898,7 +135896,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4bd118
     size: 52
     label: _ZN2al19createActorFunctionI16ReactionMapPartsEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4bd14c
     size: 52
@@ -135908,7 +135906,7 @@ Scene/ProjectActorFactory.o:
   - offset: 0x4bd180
     size: 52
     label: _ZN2al19createActorFunctionI12RocketFlowerEEPNS_9LiveActorEPKc
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4bd1b4
     size: 52
@@ -137105,12 +137103,12 @@ Scene/ProjectSceneFactory.o:
   - offset: 0x4c1b48
     size: 48
     label: _ZN15alSceneFunction15createSceneFuncI9DemoSceneEEPN2al5SceneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4c1b78
     size: 48
     label: _ZN15alSceneFunction15createSceneFuncI26DemoSceneWithCinemaCaptionEEPN2al5SceneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4c1ba8
     size: 48
@@ -137125,7 +137123,7 @@ Scene/ProjectSceneFactory.o:
   - offset: 0x4c1c04
     size: 44
     label: _ZN15alSceneFunction15createSceneFuncI10StageSceneEEPN2al5SceneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4c1c30
     size: 48
@@ -137149,47 +137147,47 @@ Scene/QuestInfo.o:
     label:
     - _ZN9QuestInfoC1Ev
     - _ZN9QuestInfoC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c1de8
     size: 92
     label: _ZN9QuestInfo5clearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c1e44
     size: 52
     label: _ZN9QuestInfo4initERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c1e78
     size: 8
     label: _ZN9QuestInfo4initERKN2al13PlacementInfoERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c1e80
     size: 656
     label: _ZN9QuestInfo4initERKN2al13PlacementInfoEPNS0_14SceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2110
     size: 24
     label: _ZN9QuestInfo12setStageNameEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2128
     size: 24
     label: _ZN9QuestInfo8setLabelEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2140
     size: 876
     label: _ZN9QuestInfo4copyEPKS_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c24ac
     size: 76
     label: _ZN9QuestInfo3endEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c24f8
     size: 608
     label: _ZNK9QuestInfo7isEqualEPKS_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2758
     size: 8
     label: _ZNK9QuestInfo17getSceneObjHolderEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Scene/QuestInfoHolder.o:
   '.text':
@@ -137198,140 +137196,140 @@ Scene/QuestInfoHolder.o:
     label:
     - _ZN15QuestInfoHolderC1Ei
     - _ZN15QuestInfoHolderC2Ei
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c28a0
     size: 112
     label: _ZN15QuestInfoHolder8clearAllEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2910
     size: 8
     label: _ZN15QuestInfoHolder16finalizeForSceneEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2918
     size: 12
     label: _ZN15QuestInfoHolder26initAfterPlacementSceneObjERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2924
     size: 584
     label: _ZN15QuestInfoHolder26initAfterPlacementQuestObjEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2b6c
     size: 172
     label: _ZN15QuestInfoHolder16updateActiveListEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2c18
     size: 48
     label: _ZN15QuestInfoHolder14clearMainQuestEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2c48
     size: 52
     label: _ZN15QuestInfoHolder18initSceneObjHolderEPN2al14SceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2c7c
     size: 108
     label: _ZN15QuestInfoHolder17registerQuestInfoEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2ce8
     size: 80
     label: _ZN15QuestInfoHolder13validateQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2d38
     size: 116
     label: _ZNK15QuestInfoHolder12tryFindQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2dac
     size: 540
     label: _ZN15QuestInfoHolder15invalidateQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c2fc8
     size: 132
     label: _ZNK15QuestInfoHolder11getQuestNumEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c304c
     size: 100
     label: _ZNK15QuestInfoHolder19getActiveQuestLabelEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c30b0
     size: 128
     label: _ZNK15QuestInfoHolder23getActiveQuestStageNameEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3130
     size: 104
     label: _ZNK15QuestInfoHolder13isActiveQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3198
     size: 152
     label: _ZNK15QuestInfoHolder12tryFindQuestERKN2al13PlacementInfoEPNS0_14SceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3230
     size: 8
     label: _ZN2rs18getQuestInfoHolderEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3238
     size: 352
     label: _ZN2rs37tryCreateAndRegisterQuestInfoToHolderEPKN2al9LiveActorERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3398
     size: 548
     label: _ZN2rs47createAndRegisterQuestInfoToHolderFromLinkedObjEPKN2al9LiveActorERKNS0_13PlacementInfoEb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c35bc
     size: 60
     label: _ZN2rs15invalidateQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c35f8
     size: 396
     label: _ZN2rs50tryCreateAndRegisterQuestInfoToHolderFromLinkedObjEPKN2al9LiveActorERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3784
     size: 96
     label: _ZN2rs13validateQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c37e4
     size: 28
     label: _ZN2rs18getActiveQuestListEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3800
     size: 28
     label: _ZN2rs17getActiveQuestNumEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c381c
     size: 88
     label: _ZN2rs23getActiveQuestNumForMapEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3874
     size: 208
     label: _ZN2rs23isActiveQuestAllEqualNoEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3944
     size: 108
     label: _ZN2rs19getActiveQuestLabelEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c39b0
     size: 128
     label: _ZN2rs23getActiveQuestStageNameEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3a30
     size: 128
     label: _ZN2rs13isActiveQuestEPK9QuestInfo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3ab0
     size: 224
     label: _ZN2rs13isActiveQuestEPKN4sead8PtrArrayI9QuestInfoEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3b90
     size: 28
     label: _ZN2rs16getActiveQuestNoEPKN2al18IUseSceneObjHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3bac
     size: 12
     label: _ZNK15QuestInfoHolder15getSceneObjNameEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4c3bb8
     size: 4
     label: _ZN15QuestInfoHolderD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Scene/SceneAudioSystemPauseController.o:
   '.text':
@@ -137340,23 +137338,23 @@ Scene/SceneAudioSystemPauseController.o:
     label:
     - _ZN31SceneAudioSystemPauseControllerC1EPN2al13AudioDirectorE
     - _ZN31SceneAudioSystemPauseControllerC2EPN2al13AudioDirectorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3bd0
     size: 100
     label: _ZN31SceneAudioSystemPauseController6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3c34
     size: 84
     label: _ZN31SceneAudioSystemPauseController9tryResumeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3c88
     size: 100
     label: _ZN31SceneAudioSystemPauseController5pauseEb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4c3cec
     size: 100
     label: _ZN31SceneAudioSystemPauseController6resumeEi
-    status: NotDecompiled
+    status: Matching
 Scene/SceneEventFunctorListener.o:
   '.text':
   - offset: 0x4c3d50
@@ -137781,7 +137779,7 @@ Scene/StageScene.o:
   - offset: 0x4cc718
     size: 36
     label: _ZNK10StageScene19isIgnoreAddPlayTimeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4cc73c
     size: 308
     label: _ZN10StageScene4killEv
@@ -138668,59 +138666,59 @@ Scene/StageSceneStateCarryMeat.o:
     label:
     - _ZN24StageSceneStateCarryMeatC1EPKcPN2al5SceneE
     - _ZN24StageSceneStateCarryMeatC2EPKcPN2al5SceneE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d369c
     size: 88
     label: _ZN24StageSceneStateCarryMeat8setStateEP23StageSceneStateSkipDemo
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d36f4
     size: 16
     label: _ZN24StageSceneStateCarryMeat6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d3704
     size: 12
     label: _ZN24StageSceneStateCarryMeat4killEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d3710
     size: 128
     label: _ZN24StageSceneStateCarryMeat11exeFindMeatEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d3790
     size: 120
     label: _ZN24StageSceneStateCarryMeat12exeCarryMeatEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d3808
     size: 88
     label: _ZN24StageSceneStateCarryMeat19exeSkipDemoFindMeatEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d3860
     size: 72
     label: _ZN24StageSceneStateCarryMeat20exeSkipDemoCarryMeatEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x4d38a8
     size: 36
     label: _ZN24StageSceneStateCarryMeatD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x4d38cc
     size: 8
     label: _ZNK12_GLOBAL__N_135StageSceneStateCarryMeatNrvFindMeat7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x4d38d4
     size: 92
     label: _ZNK12_GLOBAL__N_143StageSceneStateCarryMeatNrvSkipDemoFindMeat7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x4d3930
     size: 76
     label: _ZNK12_GLOBAL__N_144StageSceneStateCarryMeatNrvSkipDemoCarryMeat7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
   - offset: 0x4d397c
     size: 120
     label: _ZNK12_GLOBAL__N_136StageSceneStateCarryMeatNrvCarryMeat7executeEPN2al11NerveKeeperE
-    status: NotDecompiled
+    status: Matching
     guess: true
 Scene/StageSceneStateCheckpointWarp.o:
   '.text':
@@ -144565,37 +144563,37 @@ Scene/WorldWarpHoleScene.o:
     label:
     - _ZN18WorldWarpHoleSceneC1EPN2al10WipeHolderE
     - _ZN18WorldWarpHoleSceneC2EPN2al10WipeHolderE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509438
     size: 108
     label:
     - _ZN18WorldWarpHoleSceneD1Ev
     - _ZN18WorldWarpHoleSceneD2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5094a4
     size: 116
     label: _ZN18WorldWarpHoleSceneD0Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509518
     size: 1088
     label: _ZN18WorldWarpHoleScene4initERKN2al13SceneInitInfoE
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x509958
     size: 380
     label: _ZN18WorldWarpHoleScene13initPlacementERKN2al13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509ad4
     size: 112
     label: _ZN18WorldWarpHoleScene6appearEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509b44
     size: 4
     label: _ZN18WorldWarpHoleScene7controlEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509b48
     size: 280
     label: _ZNK18WorldWarpHoleScene8drawMainEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x509c60
     size: 108
     label: _ZN18WorldWarpHoleScene6tryEndEv
@@ -144607,7 +144605,7 @@ Scene/WorldWarpHoleScene.o:
   - offset: 0x509cdc
     size: 336
     label: _ZN18WorldWarpHoleScene8exeStartEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x509e2c
     size: 308
     label: _ZN18WorldWarpHoleScene7exeLoopEv
@@ -144619,19 +144617,19 @@ Scene/WorldWarpHoleScene.o:
   - offset: 0x50a0d4
     size: 164
     label: _ZN18WorldWarpHoleScene11exeSkipProcEv
-    status: NotDecompiled
+    status: NonMatchingMajor
   - offset: 0x50a178
     size: 152
     label: _ZN18WorldWarpHoleScene16initPlacementSkyEPKN2al9StageInfoERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50a210
     size: 160
     label: _ZN18WorldWarpHoleScene19initPlacementObjectEPKN2al9StageInfoERKNS0_13ActorInitInfoEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50a2b0
     size: 112
     label: _ZN18WorldWarpHoleScene17initPlacementDemoEPKN2al9StageInfoERKNS0_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50a320
     size: 8
     label: ''
@@ -145128,7 +145126,7 @@ Sequence/HakoniwaSequence.o:
     label:
     - _ZN16HakoniwaSequenceC1EPKc
     - _ZN16HakoniwaSequenceC2EPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50e428
     size: 392
     label:
@@ -145150,15 +145148,15 @@ Sequence/HakoniwaSequence.o:
   - offset: 0x50e604
     size: 72
     label: _ZNK16HakoniwaSequence12isDisposableEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50e64c
     size: 84
     label: _ZN16HakoniwaSequence15updatePadSystemEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50e6a0
     size: 8
     label: _ZN16HakoniwaSequence16destroySceneHeapEb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50e6a8
     size: 2236
     label: _ZN16HakoniwaSequence4initERKN2al16SequenceInitInfoE
@@ -145170,11 +145168,11 @@ Sequence/HakoniwaSequence.o:
   - offset: 0x50f030
     size: 332
     label: _ZN16HakoniwaSequence6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50f17c
     size: 92
     label: _ZNK16HakoniwaSequence12isEnableSaveEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x50f1d8
     size: 196
     label: _ZNK16HakoniwaSequence8drawMainEv
@@ -145222,7 +145220,7 @@ Sequence/HakoniwaSequence.o:
   - offset: 0x5107dc
     size: 256
     label: _ZN16HakoniwaSequence14exeMissCoinSubEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5108dc
     size: 208
     label: _ZN16HakoniwaSequence10exeMissEndEv
@@ -145258,7 +145256,7 @@ Sequence/HakoniwaSequence.o:
   - offset: 0x510c44
     size: 8
     label: _ZNK16HakoniwaSequence15getCurrentSceneEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x510c4c
     size: 8
@@ -146037,47 +146035,47 @@ System/AchievementSaveData.o:
     label:
     - _ZN19AchievementSaveDataC1EPK21AchievementInfoReader
     - _ZN19AchievementSaveDataC2EPK21AchievementInfoReader
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514ce0
     size: 68
     label: _ZN19AchievementSaveData4initEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514d24
     size: 96
     label: _ZN19AchievementSaveData14getAchievementEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514d84
     size: 8
     label: _ZNK19AchievementSaveData20findAchievementIndexEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514d8c
     size: 48
     label: _ZNK19AchievementSaveData19checkGetAchievementEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514dbc
     size: 16
     label: _ZNK19AchievementSaveData19checkGetAchievementEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514dcc
     size: 16
     label: _ZNK19AchievementSaveData22findAchievementGetTimeEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514ddc
     size: 116
     label: _ZNK19AchievementSaveData21calcGetAchievementNumEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514e50
     size: 12
     label: _ZNK19AchievementSaveData17getAchievementNumEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514e5c
     size: 236
     label: _ZN19AchievementSaveData5writeEPN2al11ByamlWriterE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x514f48
     size: 328
     label: _ZN19AchievementSaveData4readERKN2al9ByamlIterE
-    status: NotDecompiled
+    status: Matching
 System/Application.o:
   '.text':
   - offset: 0x515090
@@ -151057,55 +151055,55 @@ System/SaveDataAccessFunction.o:
   - offset: 0x539674
     size: 8
     label: _ZN22SaveDataAccessFunction17startSaveDataInitEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x53967c
     size: 8
     label: _ZN22SaveDataAccessFunction21startSaveDataInitSyncEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x539684
     size: 40
     label: _ZN22SaveDataAccessFunction21startSaveDataLoadFileEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5396ac
     size: 8
     label: _ZN22SaveDataAccessFunction21startSaveDataReadSyncEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5396b4
     size: 8
     label: _ZN22SaveDataAccessFunction20startSaveDataReadAllEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5396bc
     size: 8
     label: _ZN22SaveDataAccessFunction18startSaveDataWriteEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5396c4
     size: 40
     label: _ZN22SaveDataAccessFunction28startSaveDataWriteWithWindowEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5396ec
     size: 64
     label: _ZN22SaveDataAccessFunction27startSaveDataCopyWithWindowEP14GameDataHolderii
-    status: NotDecompiled
+    status: Matching
   - offset: 0x53972c
     size: 48
     label: _ZN22SaveDataAccessFunction29startSaveDataDeleteWithWindowEP14GameDataHolderi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x53975c
     size: 8
     label: _ZN22SaveDataAccessFunction22startSaveDataWriteSyncEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x539764
     size: 8
     label: _ZN22SaveDataAccessFunction20updateSaveDataAccessEP14GameDataHolderb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x53976c
     size: 8
     label: _ZN22SaveDataAccessFunction12isEnableSaveEPK14GameDataHolder
-    status: NotDecompiled
+    status: Matching
   - offset: 0x539774
     size: 8
     label: _ZN22SaveDataAccessFunction10isDoneSaveEP14GameDataHolder
-    status: NotDecompiled
+    status: Matching
 System/SaveDataAccessSequence.o:
   '.text':
   - offset: 0x53977c
@@ -154240,7 +154238,7 @@ Util/HackerJudge.o:
   - offset: 0x551f98
     size: 24
     label: _ZN11HackerJudgeC2EPP14IUsePlayerHack
-    status: NotDecompiled
+    status: Matching
 Util/HelpFunction.o:
   '.text':
   - offset: 0x551fb0
@@ -158496,87 +158494,87 @@ Util/ScenePrepoFunction.o:
   - offset: 0x574094
     size: 288
     label: _ZN2rs32trySavePrepoCompleteMainScenarioEiilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5741b4
     size: 380
     label: _ZN2rs22trySavePrepoStartStageEPKcRKN4sead7Vector3IfEElll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x574330
     size: 380
     label: _ZN2rs21trySavePrepoExitStageEPKcRKN4sead7Vector3IfEElll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5744ac
     size: 380
     label: _ZN2rs21trySavePrepoMissEventEPKcRKN4sead7Vector3IfEElll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x574628
     size: 364
     label: _ZN2rs25trySavePrepoShineGetEventEPKciiilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x574794
     size: 308
     label: _ZN2rs30trySavePrepoReceiveAchievementEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5748c8
     size: 1216
     label: _ZN2rs31trySavePrepoAchievementProgressE22GameDataHolderAccessorlll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x574d88
     size: 324
     label: _ZN2rs23trySavePrepoGetCapEventEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x574ecc
     size: 328
     label: _ZN2rs25trySavePrepoGetClothEventEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575014
     size: 328
     label: _ZN2rs24trySavePrepoGetGiftEventEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x57515c
     size: 328
     label: _ZN2rs27trySavePrepoGetStickerEventEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5752a4
     size: 292
     label: _ZN2rs26trySavePrepoChangeCapEventEPKclll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5753c8
     size: 296
     label: _ZN2rs28trySavePrepoChangeClothEventEPKclll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5754f0
     size: 308
     label: _ZN2rs26trySavePrepoFirstHackEventEPKcilll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575624
     size: 384
     label: _ZN2rs30trySavePrepoGetCollectBgmEventEPKcS1_billl
-    status: NotDecompiled
+    status: Matching
   - offset: 0x5757a4
     size: 504
     label: _ZN2rs25trySavePrepoSettingsStateEbPKcRK14GameConfigDatall
-    status: NotDecompiled
+    status: Matching
   - offset: 0x57599c
     size: 256
     label: _ZN2rs28trySavePrepoSeparatePlayModeEblll
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575a9c
     size: 4
     label: _ZN2rs5prepo17enableIsSavePrepoEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575aa0
     size: 4
     label: _ZN2rs5prepo18disableIsSavePrepoEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575aa4
     size: 68
     label: _ZN2rs5prepo18generateSaveDataIdEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x575ae8
     size: 12
     label: _ZN2rs5prepo17calcPrepoHashCodeEPKc
-    status: NotDecompiled
+    status: Matching
 Util/StageInputFunction.o:
   '.text':
   - offset: 0x575af4
@@ -213156,7 +213154,7 @@ Util/YoshiUtil.o:
   - offset: 0x799950
     size: 5188
     label: _ZN3agl3utl13ParameterBase16createByTypeNameERKN4sead14SafeStringBaseIcEES6_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x79ad94
     size: 4
     label: _ZN3agl3utl13ParameterBaseD0Ev
@@ -213890,7 +213888,7 @@ Util/YoshiUtil.o:
   - offset: 0x79d1ac
     size: 500
     label: _ZNK3agl3utl14ParameterCurveILj2EE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NonMatchingMajor
+    status: Matching
     lazy: true
   - offset: 0x79d3a0
     size: 140
@@ -214025,7 +214023,7 @@ Util/YoshiUtil.o:
   - offset: 0x79f28c
     size: 448
     label: _ZNK3agl3utl14ParameterCurveILj4EE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NonMatchingMajor
+    status: Matching
     lazy: true
   - offset: 0x79f44c
     size: 220
@@ -214035,382 +214033,382 @@ Util/YoshiUtil.o:
   - offset: 0x79f528
     size: 84
     label: _ZN3agl3utl15ParameterBufferIiED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f57c
     size: 68
     label: _ZN3agl3utl15ParameterBufferIiED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5c0
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIiE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5c8
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIiE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5d0
     size: 8
     label: _ZN3agl3utl15ParameterBufferIiE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5d8
     size: 8
     label: _ZNK3agl3utl9ParameterIPiE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5e0
     size: 8
     label: _ZN3agl3utl9ParameterIPiE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5e8
     size: 12
     label: _ZNK3agl3utl15ParameterBufferIiE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f5f4
     size: 12
     label: _ZNK3agl3utl9ParameterIPiE16calcBinarizeSizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f600
     size: 208
     label: _ZNK3agl3utl9ParameterIPiE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f6d0
     size: 72
     label: _ZN3agl3utl15ParameterBufferIiE18postApplyResource_EPKvm
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f718
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIiE8isBinaryEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f720
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIiE22isBinaryInternalBufferEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f728
     size: 20
     label: _ZN3agl3utl9ParameterIPiED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f73c
     size: 4
     label: _ZN3agl3utl9ParameterIPiED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f740
     size: 8
     label: _ZNK3agl3utl9ParameterIPiE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f748
     size: 8
     label: _ZNK3agl3utl9ParameterIPiE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f750
     size: 8
     label: _ZN3agl3utl9ParameterIPiE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f758
     size: 8
     label: _ZNK3agl3utl9ParameterIPiE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f760
     size: 84
     label: _ZN3agl3utl15ParameterBufferIfED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f7b4
     size: 68
     label: _ZN3agl3utl15ParameterBufferIfED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f7f8
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIfE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f800
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIfE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f808
     size: 8
     label: _ZN3agl3utl15ParameterBufferIfE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f810
     size: 8
     label: _ZNK3agl3utl9ParameterIPfE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f818
     size: 8
     label: _ZN3agl3utl9ParameterIPfE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f820
     size: 12
     label: _ZNK3agl3utl15ParameterBufferIfE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f82c
     size: 12
     label: _ZNK3agl3utl9ParameterIPfE16calcBinarizeSizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f838
     size: 208
     label: _ZNK3agl3utl9ParameterIPfE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f908
     size: 72
     label: _ZN3agl3utl15ParameterBufferIfE18postApplyResource_EPKvm
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f950
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIfE8isBinaryEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f958
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIfE22isBinaryInternalBufferEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f960
     size: 20
     label: _ZN3agl3utl9ParameterIPfED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f974
     size: 4
     label: _ZN3agl3utl9ParameterIPfED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f978
     size: 8
     label: _ZNK3agl3utl9ParameterIPfE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f980
     size: 8
     label: _ZNK3agl3utl9ParameterIPfE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f988
     size: 8
     label: _ZN3agl3utl9ParameterIPfE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f990
     size: 8
     label: _ZNK3agl3utl9ParameterIPfE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f998
     size: 84
     label: _ZN3agl3utl15ParameterBufferIjED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79f9ec
     size: 68
     label: _ZN3agl3utl15ParameterBufferIjED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa30
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIjE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa38
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIjE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa40
     size: 8
     label: _ZN3agl3utl15ParameterBufferIjE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa48
     size: 8
     label: _ZNK3agl3utl9ParameterIPjE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa50
     size: 8
     label: _ZN3agl3utl9ParameterIPjE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa58
     size: 12
     label: _ZNK3agl3utl15ParameterBufferIjE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa64
     size: 12
     label: _ZNK3agl3utl9ParameterIPjE16calcBinarizeSizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fa70
     size: 208
     label: _ZNK3agl3utl9ParameterIPjE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fb40
     size: 72
     label: _ZN3agl3utl15ParameterBufferIjE18postApplyResource_EPKvm
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fb88
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIjE8isBinaryEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fb90
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIjE22isBinaryInternalBufferEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fb98
     size: 20
     label: _ZN3agl3utl9ParameterIPjED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbac
     size: 4
     label: _ZN3agl3utl9ParameterIPjED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbb0
     size: 8
     label: _ZNK3agl3utl9ParameterIPjE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbb8
     size: 8
     label: _ZNK3agl3utl9ParameterIPjE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbc0
     size: 8
     label: _ZN3agl3utl9ParameterIPjE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbc8
     size: 8
     label: _ZNK3agl3utl9ParameterIPjE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fbd0
     size: 84
     label: _ZN3agl3utl15ParameterBufferIhED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc24
     size: 68
     label: _ZN3agl3utl15ParameterBufferIhED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc68
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIhE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc70
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIhE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc78
     size: 8
     label: _ZN3agl3utl15ParameterBufferIhE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc80
     size: 8
     label: _ZNK3agl3utl9ParameterIPhE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc88
     size: 8
     label: _ZN3agl3utl9ParameterIPhE7typePtrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc90
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIhE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fc98
     size: 12
     label: _ZNK3agl3utl9ParameterIPhE16calcBinarizeSizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fca4
     size: 208
     label: _ZNK3agl3utl9ParameterIPhE5cloneEPN4sead4HeapEPNS0_13IParameterObjE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fd74
     size: 68
     label: _ZN3agl3utl15ParameterBufferIhE18postApplyResource_EPKvm
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fdb8
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIhE8isBinaryEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fdc0
     size: 8
     label: _ZNK3agl3utl15ParameterBufferIhE22isBinaryInternalBufferEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fdc8
     size: 20
     label: _ZN3agl3utl9ParameterIPhED2Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fddc
     size: 4
     label: _ZN3agl3utl9ParameterIPhED0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fde0
     size: 8
     label: _ZNK3agl3utl9ParameterIPhE16getParameterTypeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fde8
     size: 8
     label: _ZNK3agl3utl9ParameterIPhE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fdf0
     size: 8
     label: _ZN3agl3utl9ParameterIPhE3ptrEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fdf8
     size: 8
     label: _ZNK3agl3utl9ParameterIPhE4sizeEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x79fe00
     size: 28
@@ -227047,82 +227045,82 @@ Library/Bgm/BgmMusicalInfo.o:
   - offset: 0x82e87c
     size: 292
     label: _ZN2al14BgmMusicalInfo10createInfoERKNS_9ByamlIterEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x82e9a0
     size: 332
     label: _ZN2al19createAudioInfoListINS_13BgmRhythmInfoEEEPNS_22AudioInfoListWithPartsIT_EERKNS_9ByamlIterEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82eaec
     size: 332
     label: _ZN2al19createAudioInfoListINS_12BgmChordInfoEEEPNS_22AudioInfoListWithPartsIT_EERKNS_9ByamlIterEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82ec38
     size: 332
     label: _ZN2al19createAudioInfoListINS_10BgmBpmInfoEEEPNS_22AudioInfoListWithPartsIT_EERKNS_9ByamlIterEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82ed84
     size: 332
     label: _ZN2al19createAudioInfoListINS_20BgmTimeSignatureInfoEEEPNS_22AudioInfoListWithPartsIT_EERKNS_9ByamlIterEi
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82eed0
     size: 12
     label: _ZN2al14BgmMusicalInfo11compareInfoEPKS0_S2_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x82eedc
     size: 20
     label:
     - _ZN2al14BgmMusicalInfoC1Ev
     - _ZN2al14BgmMusicalInfoC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x82eef0
     size: 120
     label:
     - _ZN2al14BgmMusicalInfoC1ERKS0_
     - _ZN2al14BgmMusicalInfoC2ERKS0_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x82ef68
     size: 488
     label: _ZN2al17copyAudioInfoListINS_13BgmRhythmInfoEEEPNS_22AudioInfoListWithPartsIT_EEPKS4_i
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f150
     size: 488
     label: _ZN2al17copyAudioInfoListINS_12BgmChordInfoEEEPNS_22AudioInfoListWithPartsIT_EEPKS4_i
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f338
     size: 488
     label: _ZN2al17copyAudioInfoListINS_10BgmBpmInfoEEEPNS_22AudioInfoListWithPartsIT_EEPKS4_i
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f520
     size: 488
     label: _ZN2al17copyAudioInfoListINS_20BgmTimeSignatureInfoEEEPNS_22AudioInfoListWithPartsIT_EEPKS4_i
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f708
     size: 104
     label: _ZN2al26AudioInfoListCreateFunctorINS_13BgmRhythmInfoEE30tryCreateAudioInfoAndSetToListERKNS_9ByamlIterE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f770
     size: 104
     label: _ZN2al26AudioInfoListCreateFunctorINS_12BgmChordInfoEE30tryCreateAudioInfoAndSetToListERKNS_9ByamlIterE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f7d8
     size: 104
     label: _ZN2al26AudioInfoListCreateFunctorINS_10BgmBpmInfoEE30tryCreateAudioInfoAndSetToListERKNS_9ByamlIterE
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x82f840
     size: 104
     label: _ZN2al26AudioInfoListCreateFunctorINS_20BgmTimeSignatureInfoEE30tryCreateAudioInfoAndSetToListERKNS_9ByamlIterE
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Library/Bgm/Bgm3DParamsController.o:
   '.text':
@@ -230861,91 +230859,91 @@ Library/Clipping/FrustumRadar.o:
     label:
     - _ZN2al12FrustumRadarC1Ev
     - _ZN2al12FrustumRadarC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843600
     size: 296
     label: _ZN2al12FrustumRadar15calcFrustumAreaERKN4sead8Matrix34IfEEffff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843728
     size: 156
     label: _ZN2al12FrustumRadar12setLocalAxisERKN4sead8Matrix34IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8437c4
     size: 148
     label: _ZN2al12FrustumRadar9setFactorEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843858
     size: 276
     label: _ZN2al12FrustumRadar15calcFrustumAreaERKN4sead8Matrix34IfEERKNS1_8Matrix44IfEEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x84396c
     size: 132
     label: _ZN2al12FrustumRadar9setFactorERKN4sead8Matrix44IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8439f0
     size: 472
     label: _ZN2al12FrustumRadar21calcFrustumAreaStereoERKN4sead8Matrix34IfEES5_RKNS1_8Matrix44IfEEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843bc8
     size: 244
     label: _ZN2al12FrustumRadar18setLocalAxisStereoERKN4sead8Matrix34IfEES5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843cbc
     size: 228
     label: _ZN2al12FrustumRadar15setFactorStereoERKN4sead8Matrix44IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843da0
     size: 112
     label: _ZNK2al12FrustumRadar11judgeInLeftERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843e10
     size: 108
     label: _ZNK2al12FrustumRadar12judgeInRightERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843e7c
     size: 108
     label: _ZNK2al12FrustumRadar10judgeInTopERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843ee8
     size: 112
     label: _ZNK2al12FrustumRadar13judgeInBottomERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x843f58
     size: 376
     label: _ZNK2al12FrustumRadar11judgeInAreaERKN4sead7Vector3IfEEfff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8440d0
     size: 8
     label: _ZNK2al12FrustumRadar11judgeInAreaERKN4sead7Vector3IfEEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8440d8
     size: 8
     label: _ZNK2al12FrustumRadar11judgeInAreaERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8440e0
     size: 12
     label: _ZNK2al12FrustumRadar16judgeInAreaNoFarERKN4sead7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8440ec
     size: 324
     label: _ZNK2al12FrustumRadar14judgePointFlagERKN4sead7Vector3IfEEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x844230
     size: 396
     label: _ZNK2al12FrustumRadar14judgeInAreaObbEPKN4sead8Matrix34IfEERKNS1_9BoundBox3IfEEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8443bc
     size: 8
     label: _ZNK2al12FrustumRadar14judgeInAreaObbEPKN4sead8Matrix34IfEERKNS1_9BoundBox3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8443c4
     size: 8
     label: _ZNK2al12FrustumRadar14judgeInAreaObbEPKN4sead8Matrix34IfEERKNS1_9BoundBox3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8443cc
     size: 12
     label: _ZNK2al12FrustumRadar19judgeInAreaObbNoFarEPKN4sead8Matrix34IfEERKNS1_9BoundBox3IfEE
-    status: NotDecompiled
+    status: Matching
 Library/Collision/Collider.o:
   '.text':
   - offset: 0x8443d8
@@ -235180,27 +235178,27 @@ Library/Demo/DemoSyncedEventKeeper.o:
     label:
     - _ZN2al21DemoSyncedEventKeeperC1EPNS_13AudioDirectorE
     - _ZN2al21DemoSyncedEventKeeperC2EPNS_13AudioDirectorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8724b4
     size: 72
     label: _ZN2al21DemoSyncedEventKeeper21updateOnlyWhenDemoRunEi
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8724fc
     size: 56
     label: _ZN2al21DemoSyncedEventKeeper8finalizeEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x872534
     size: 140
     label: _ZN2al21DemoSyncedEventKeeper9startDemoEPKc
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8725c0
     size: 104
     label: _ZN2al21DemoSyncedEventKeeper7endDemoEbb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x872628
     size: 84
     label: _ZN25alDemoSyncedEventFunction23tryCreateAndSetSeKeeperEPN2al21DemoSyncedEventKeeperEPNS0_13AudioDirectorEPKc
-    status: NotDecompiled
+    status: Matching
 Library/Demo/DemoSyncedBgmCtrl.o:
   '.text':
   - offset: 0x87267c
@@ -237091,23 +237089,23 @@ Library/Event/BalloonOrderGroup.o:
     label:
     - _ZN2al17BalloonOrderGroupC1ERKNS_13PlacementInfoE
     - _ZN2al17BalloonOrderGroupC2ERKNS_13PlacementInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x889b78
     size: 88
     label: _ZNK2al17BalloonOrderGroup7isEqualERKNS_13PlacementInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x889bd0
     size: 204
     label: _ZN2al17BalloonOrderGroup17registerRequesterEPKNS_9LiveActorEPKNS_17IUseEventFlowDataERKNS_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x889c9c
     size: 44
     label: _ZNK2al17BalloonOrderGroup21isEnableAppearBalloonEPKNS_9LiveActorE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x889cc8
     size: 200
     label: _ZN2al17BalloonOrderGroup6updateERKN4sead7Vector3IfEE
-    status: NotDecompiled
+    status: Matching
 Library/Event/BalloonOrderGroupHolder.o:
   '.text':
   - offset: 0x889d90
@@ -243404,29 +243402,29 @@ Library/Layout/LayoutTextureRenderer.o:
     label:
     - _ZN2al21LayoutTextureRendererC1Ev
     - _ZN2al21LayoutTextureRendererC2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b72ac
     size: 116
     label:
     - _ZN2al21LayoutTextureRendererD1Ev
     - _ZN2al21LayoutTextureRendererD2Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b7320
     size: 120
     label: _ZN2al21LayoutTextureRendererD0Ev
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b7398
     size: 44
     label: _ZN2al21LayoutTextureRenderer12addRenderObjEPNS_22LayoutTextureRenderObjE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b73c4
     size: 104
     label: _ZNK2al21LayoutTextureRenderer13drawToTextureEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x8b742c
     size: 12
     label: _ZNK2al21LayoutTextureRenderer15getSceneObjNameEv
-    status: NotDecompiled
+    status: Matching
     lazy: true
 Library/Layout/LayoutTextureRenderObj.o:
   '.text':
@@ -259436,7 +259434,7 @@ Library/Math/MathUtil.o:
   - offset: 0x91f7b4
     size: 168
     label: _ZN2al18isReverseDirectionERKN4sead7Vector3IfEES4_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x91f85c
     size: 72
     label: _ZN2al15isNearDirectionERKN4sead7Vector2IfEES4_f
@@ -259444,7 +259442,7 @@ Library/Math/MathUtil.o:
   - offset: 0x91f8a4
     size: 168
     label: _ZN2al15isNearDirectionERKN4sead7Vector3IfEES4_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x91f94c
     size: 56
     label: _ZN2al9isInRangeEiii
@@ -259724,7 +259722,7 @@ Library/Math/MathUtil.o:
   - offset: 0x922108
     size: 120
     label: _ZN2al20isInRangeAngleDegreeEfff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x922180
     size: 832
     label: _ZN2al24calcEyesAnimAngleInRangeEPfRKN4sead7Vector3IfEES5_S5_S5_ffff
@@ -259916,7 +259914,7 @@ Library/Math/MathUtil.o:
   - offset: 0x923fe0
     size: 72
     label: _ZN2al14parallelizeVecEPN4sead7Vector3IfEERKS2_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x924028
     size: 280
     label: _ZN2al20calcVectorSeparateHVEPN4sead7Vector3IfEERKS2_S5_ff
@@ -259928,7 +259926,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92426c
     size: 116
     label: _ZN2al30separateVectorParallelVerticalEPN4sead7Vector3IfEES3_RKS2_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9242e0
     size: 364
     label: _ZN2al14addVectorLimitEPN4sead7Vector3IfEERKS2_f
@@ -259940,11 +259938,11 @@ Library/Math/MathUtil.o:
   - offset: 0x9246f8
     size: 160
     label: _ZN2al22calcDistanceVecToPlaneERKN4sead7Vector3IfEES4_S4_S4_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x924798
     size: 100
     label: _ZN2al13limitPlanePosEPN4sead7Vector3IfEERKS2_S5_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9247fc
     size: 264
     label: _ZN2al18limitCylinderInPosEPN4sead7Vector3IfEERKS2_S5_S5_f
@@ -259960,7 +259958,7 @@ Library/Math/MathUtil.o:
   - offset: 0x924b30
     size: 32
     label: _ZN2al18limitCylinderInDirEPN4sead7Vector3IfEERKS2_S5_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x924b50
     size: 96
     label: _ZN2al11roundOffVecEPN4sead7Vector3IfEERKS2_
@@ -260076,11 +260074,11 @@ Library/Math/MathUtil.o:
   - offset: 0x925f3c
     size: 172
     label: _ZN2al20calcNearVecFromAxis3EPN4sead7Vector3IfEERKS2_RKNS0_4QuatIfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x925fe8
     size: 136
     label: _ZN2al20calcQuatLocalAxisAllERKN4sead4QuatIfEEPNS0_7Vector3IfEES7_S7_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x926070
     size: 212
     label: _ZN2al15addRandomVectorEPN4sead7Vector3IfEERKS2_f
@@ -260300,19 +260298,19 @@ Library/Math/MathUtil.o:
   - offset: 0x929658
     size: 400
     label: _ZN2al14tiltQuatDegreeEPN4sead4QuatIfEERKS2_RKNS0_7Vector3IfEES9_f
-    status: NotDecompiled
+    status: NonMatchingMinor
   - offset: 0x9297e8
     size: 128
     label: _ZN2al18tiltQuatXDirDegreeEPN4sead4QuatIfEERKS2_RKNS0_7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x929868
     size: 124
     label: _ZN2al18tiltQuatYDirDegreeEPN4sead4QuatIfEERKS2_RKNS0_7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9298e4
     size: 124
     label: _ZN2al18tiltQuatZDirDegreeEPN4sead4QuatIfEERKS2_RKNS0_7Vector3IfEEf
-    status: NotDecompiled
+    status: Matching
   - offset: 0x929960
     size: 448
     label: _ZN2al22turnQuatWithAxisDegreeEPN4sead4QuatIfEERKS2_RKNS0_7Vector3IfEES9_S9_f
@@ -260372,7 +260370,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92b1ac
     size: 24
     label: _ZN2al22turnVecToVecCosOnPlaneEPN4sead7Vector3IfEERKS2_S5_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92b1c4
     size: 356
     label: _ZN2al24rotateVectorCenterDegreeEPN4sead7Vector3IfEERKS2_S5_S5_f
@@ -260396,7 +260394,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92b6f4
     size: 148
     label: _ZN2al16calcAreaTriangleERKN4sead7Vector3IfEES4_S4_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92b788
     size: 196
     label: _ZN2al17createBoundingBoxEPKN4sead7Vector3IfEEjPS2_S5_
@@ -260404,7 +260402,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92b84c
     size: 112
     label: _ZN2al17updateBoundingBoxEN4sead7Vector3IfEEPS2_S3_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92b8bc
     size: 188
     label: _ZN2al39calcDistanceToFarthestBoundingBoxVertexERKN4sead7Vector3IfEES4_S4_
@@ -260416,7 +260414,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92bac4
     size: 128
     label: _ZN2al18calcCrossLinePointEPN4sead7Vector2IfEERKS2_S5_S5_S5_
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92bb44
     size: 708
     label: _ZN2al35calcSquaredDistanceSegmentToSegmentERKN4sead7Vector3IfEES4_S4_S4_PS2_S5_
@@ -260440,7 +260438,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92c1f8
     size: 120
     label: _ZN2al21calcCylinderRadiusDotERKN4sead7Vector3IfEES4_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92c270
     size: 180
     label: _ZN2al21checkHitSemilinePlaneEPN4sead7Vector3IfEERKS2_S5_S5_S5_
@@ -260472,7 +260470,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92d528
     size: 176
     label: _ZN2al22checkHitHalfLineSphereERKN4sead7Vector3IfEES4_S4_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92d5d8
     size: 180
     label: _ZN9Intersect5calcXEPN4sead7Vector3IfEEfRKS2_S5_S5_S5_
@@ -260520,7 +260518,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92e9f0
     size: 164
     label: _ZN2al23isNearCollideSphereAabbERKN4sead7Vector3IfEEfRKNS0_9BoundBox3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92ea94
     size: 372
     label: _ZN2al16calcBoxFacePointEPN4sead7Vector3IfEERKNS0_9BoundBox3IfEEi
@@ -260564,7 +260562,7 @@ Library/Math/MathUtil.o:
   - offset: 0x92faa8
     size: 44
     label: _ZN2al17calcDistanceToObbERKN4sead7Vector3IfEERKNS0_8Matrix34IfEES4_RKNS0_9BoundBox3IfEE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x92fad4
     size: 424
     label: _ZN2al24calcSquaredDistanceToObbERKN4sead7Vector3IfEERKNS0_8Matrix34IfEE
@@ -260592,11 +260590,11 @@ Library/Math/MathUtil.o:
   - offset: 0x9309f8
     size: 168
     label: _ZN2al20calcReflectionVectorEPN4sead7Vector3IfEERKS2_ff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x930aa0
     size: 96
     label: _ZN2al17calcReverseVectorEPN4sead7Vector3IfEERKS2_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x930b00
     size: 136
     label: _ZN2al26calcParabolicFunctionParamEPfS0_ff
@@ -260612,7 +260610,7 @@ Library/Math/MathUtil.o:
   - offset: 0x930e38
     size: 172
     label: _ZN2al15calcBezierPointEPN4sead7Vector3IfEERKS2_S5_S5_S5_f
-    status: NotDecompiled
+    status: Matching
   - offset: 0x930ee4
     size: 20
     label: _ZN2al21calcSpringDumperForceEffff
@@ -260636,19 +260634,19 @@ Library/Math/MathUtil.o:
   - offset: 0x931268
     size: 80
     label: _ZN2al17getHaltonSequenceEjj
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9312b8
     size: 100
     label: _ZN2al11calcFractalEffjfffb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x93131c
     size: 116
     label: _ZN2al16calcMultiFractalEfffjfffb
-    status: NotDecompiled
+    status: Matching
   - offset: 0x931390
     size: 112
     label: _ZN2al22calcNormalDistributionEfff
-    status: NotDecompiled
+    status: Matching
   - offset: 0x931400
     size: 652
     label: _ZN2al16calcVecViewInputEPN4sead7Vector3IfEERKNS0_7Vector2IfEERKS2_PKNS0_8Matrix34IfEE
@@ -264307,60 +264305,60 @@ Library/Movement/ClockMovement.o:
     label:
     - _ZN2al13ClockMovementC1ERKNS_13ActorInitInfoE
     - _ZN2al13ClockMovementC2ERKNS_13ActorInitInfoE
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952a1c
     size: 100
     label: _ZN2al13ClockMovement8exeDelayEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952a80
     size: 204
     label: _ZN2al13ClockMovement13exeRotateSignEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952b4c
     size: 156
     label: _ZN2al13ClockMovement9exeRotateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952be8
     size: 96
     label: _ZN2al13ClockMovement7exeWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952c48
     size: 64
     label: _ZNK2al13ClockMovement16isFirstStepDelayEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952c88
     size: 68
     label: _ZNK2al13ClockMovement21isFirstStepRotateSignEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952ccc
     size: 68
     label: _ZNK2al13ClockMovement17isFirstStepRotateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952d10
     size: 64
     label: _ZNK2al13ClockMovement15isFirstStepWaitEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x952d50
     size: 36
     label: _ZN2al13ClockMovementD0Ev
-    status: NotDecompiled
+    status: Matching
     lazy: true
   - offset: 0x952d74
     size: 104
-    label: ''
-    status: NotDecompiled
+    label: _ZNK12_GLOBAL__N_121ClockMovementNrvDelay7executeEPN2al11NerveKeeperE
+    status: Matching
   - offset: 0x952ddc
     size: 8
-    label: ''
-    status: NotDecompiled
+    label: _ZNK12_GLOBAL__N_126ClockMovementNrvRotateSign7executeEPN2al11NerveKeeperE
+    status: Matching
   - offset: 0x952de4
     size: 8
-    label: ''
-    status: NotDecompiled
+    label: _ZNK12_GLOBAL__N_122ClockMovementNrvRotate7executeEPN2al11NerveKeeperE
+    status: Matching
   - offset: 0x952dec
     size: 100
-    label: ''
-    status: NotDecompiled
+    label: _ZNK12_GLOBAL__N_120ClockMovementNrvWait7executeEPN2al11NerveKeeperE
+    status: Matching
 Library/Movement/EnemyStateBlowDown.o:
   '.text':
   - offset: 0x952e50
@@ -268251,6 +268249,8 @@ Library/Obj/SimpleCircleShadowXZ.o:
     size: 12
     label: _ZN2al20SimpleCircleShadowXZ17setInterpoleFrameEi
     status: NotDecompiled
+MapObj/SimpleSignBoard.o:
+  '.text':
   - offset: 0x96f214
     size: 120
     label: _ZN15SimpleSignBoardC2EPKc
@@ -282762,7 +282762,7 @@ Library/Shader/ForwardRendering/CubeMapUnitInfo.o:
   - offset: 0xa03dfc
     size: 400
     label: _ZN3agl3utl9ParameterIN4sead15FixedSafeStringILi64EEEEC2ERKS4_RKNS2_14SafeStringBaseIcEESB_PNS0_13IParameterObjE
-    status: NonMatchingMajor
+    status: NotDecompiled
     lazy: true
   - offset: 0xa03f8c
     size: 56
@@ -283873,7 +283873,7 @@ Library/Shader/ActorOcclusionKeeper.o:
   - offset: 0xa126dc
     size: 400
     label: _ZN3agl3utl9ParameterIN4sead15FixedSafeStringILi32EEEEC2ERKS4_RKNS2_14SafeStringBaseIcEESB_PNS0_13IParameterObjE
-    status: NonMatchingMajor
+    status: NotDecompiled
     lazy: true
   - offset: 0xa1286c
     size: 136
@@ -294004,35 +294004,35 @@ Project/Math/FractalGenerator.o:
     label:
     - _ZN2al16FractalGeneratorC1Ejfff
     - _ZN2al16FractalGeneratorC2Ejfff
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6a884
     size: 20
     label: _ZN2al16FractalGenerator8setParamEjfff
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6a898
     size: 220
     label: _ZN2al16FractalGenerator11calcFractalEffb
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6a974
     size: 228
     label: _ZN2al16FractalGenerator21makeSmoothPerlinNoiseEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6aa58
     size: 340
     label: _ZN2al16FractalGenerator15makePerlinNoiseEff
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6abac
     size: 232
     label: _ZN2al16FractalGenerator16calcMultiFractalEfffb
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6ac94
     size: 84
     label: _ZN2al16FractalGenerator10makeRandomEii
-    status: NotDecompiled
+    status: Matching
   - offset: 0xa6ace8
     size: 452
     label: _ZN2al16FractalGenerator16makeSmoothRandomEii
-    status: NotDecompiled
+    status: Matching
 Project/Memory/MemorySystem.o:
   '.text':
   - offset: 0xa6aeac
@@ -325365,7 +325365,7 @@ Unknown/SePlayer.o:
   - offset: 0xbe122c
     size: 304
     label: _ZN3agl3utl14ParameterCurveILj4EEC2ERKN4sead14SafeStringBaseIcEES7_PNS0_13IParameterObjE
-    status: NonMatchingMajor
+    status: NotDecompiled
     lazy: true
   - offset: 0xbe135c
     size: 20

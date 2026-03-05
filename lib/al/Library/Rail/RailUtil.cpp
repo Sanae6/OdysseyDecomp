@@ -323,11 +323,8 @@ s32 getNextRailPointNo(const IUseRail* railHolder) {
     s32 newIndex = getRailPointNo(railHolder) + modifier;
     s32 railPointNum = getRailPointNum(railHolder);
 
-    if (isLoop) {
-        s32 sum = railPointNum + newIndex;
-        s32 railPointNumAgain = getRailPointNum(railHolder);
-        return modi(sum + railPointNumAgain, railPointNumAgain);
-    }
+    if (isLoop)
+        return wrapValue(railPointNum + newIndex, getRailPointNum(railHolder));
 
     return sead::Mathi::clamp2(0, newIndex, railPointNum - 1);
 }
@@ -497,10 +494,6 @@ void calcRailDirAtCoord(sead::Vector3f* dir, const IUseRail* railHolder, f32 coo
     getRail(railHolder)->calcDirection(dir, coord);
 }
 
-inline f32 modLimit(f32 value, f32 limit) {
-    return modf(value + limit, limit) + 0.0f;
-}
-
 // Mismatch: https://decomp.me/scratch/0vmMR
 void calcRailPosFront(sead::Vector3f* pos, const IUseRail* railHolder, f32 offset) {
     if (!isRailGoingToEnd(railHolder))
@@ -511,7 +504,7 @@ void calcRailPosFront(sead::Vector3f* pos, const IUseRail* railHolder, f32 offse
 
     if (rail->isClosed()) {
         f32 totalLength = rail->getTotalLength();
-        f32 distance = modLimit(coordOffset, totalLength);
+        f32 distance = wrapValue(coordOffset, totalLength);
         rail->calcPos(pos, distance);
         return;
     }
@@ -531,7 +524,7 @@ void calcRailDirFront(sead::Vector3f* pos, const IUseRail* railHolder, f32 offse
 
     if (rail->isClosed()) {
         f32 totalLength = rail->getTotalLength();
-        f32 distance = modLimit(coordOffset, totalLength);
+        f32 distance = wrapValue(coordOffset, totalLength);
         rail->calcDirection(pos, distance);
         return;
     }

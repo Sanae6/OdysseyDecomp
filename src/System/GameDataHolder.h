@@ -211,9 +211,9 @@ public:
 
     GameDataFile* getGameDataFile() const { return mPlayingFile; }
 
-    void set_49() { _49 = true; }
+    void setStageChanging() { mIsStageChanging = true; }
 
-    void set_4a() { _4a = true; }
+    void setStageEnding() { mIsStageEnding = true; }
 
     s64 getPlayTimeAcrossFile() const { return mPlayTimeAcrossFile; }
 
@@ -281,6 +281,8 @@ public:
 
     GameConfigData* getGameConfigData() const { return mGameConfigData; }
 
+    SaveDataAccessSequence* getSaveDataAccessSequence() const { return mSaveDataAccessSequence; }
+
 private:
     al::MessageSystem* mMessageSystem;
     GameDataFile** mFiles;
@@ -291,8 +293,8 @@ private:
     bool mIsRequireSave;
     u32 mRequireSaveFrame;
     bool mIsInvalidSaveForMoonGet;
-    bool _49;  // related to changeNextStage(WithWorldDemoWarp)
-    bool _4a;  // related to endStage
+    bool mIsStageChanging;
+    bool mIsStageEnding;
     sead::FixedSafeString<32> mLanguage;
     u64 mPlayTimeAcrossFile;
     sead::Heap* mSaveDataWriteThread;
