@@ -65,6 +65,8 @@ public:
     void initScreenCoverCtrl();
     void endInit(const ActorInitInfo& info);
 
+    bool isAlive() const { return mIsAlive; }
+
     StageResourceKeeper* getStageResourceKeeper() const { return mStageResourceKeeper; }
 
     LiveActorKit* getLiveActorKit() const { return mLiveActorKit; }

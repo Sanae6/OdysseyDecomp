@@ -281261,7 +281261,7 @@ Library/Sequence/Sequence.o:
   - offset: 0x9f2060
     size: 112
     label: _ZN2al8Sequence6updateEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9f20d0
     size: 8
     label: _ZN2al8Sequence4killEv
@@ -281269,7 +281269,7 @@ Library/Sequence/Sequence.o:
   - offset: 0x9f20d8
     size: 220
     label: _ZN2al8Sequence9initAudioERKNS_14GameSystemInfoEPKciiiS5_
-    status: NotDecompiled
+    status: Wip
   - offset: 0x9f21b4
     size: 44
     label: _ZN2al8Sequence15initAudioKeeperEPKc
@@ -281285,11 +281285,11 @@ Library/Sequence/Sequence.o:
   - offset: 0x9f21fc
     size: 32
     label: _ZNK2al8Sequence8drawMainEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9f221c
     size: 32
     label: _ZNK2al8Sequence7drawSubEv
-    status: NotDecompiled
+    status: Matching
   - offset: 0x9f223c
     size: 4
     label: _ZN2al8Sequence4initERKNS_16SequenceInitInfoE
